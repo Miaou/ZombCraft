@@ -112,23 +112,44 @@
 <node TEXT="placement &#xe0; la Minecraft" ID="ID_1788787148" CREATED="1325768604942" MODIFIED="1325768610308"/>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1057435362" CREATED="1325771765495" MODIFIED="1325771768531">
-<node TEXT="Syst&#xe8;me d&apos;assemblage par &quot;points d&apos;accroche&quot; limit&#xe9; en taille (cf vaisseau Gummy dans Kingdom Hearts)" ID="ID_969411457" CREATED="1325771769318" MODIFIED="1325771824287" LINK="http://www.jeuxvideo.com/screenshots/images/00009/00009148_782.htm"/>
+<node TEXT="Syst&#xe8;me d&apos;assemblage par &quot;points d&apos;accroche&quot; limit&#xe9; en taille (cf vaisseau Gummy dans Kingdom Hearts)" ID="ID_969411457" CREATED="1325771769318" MODIFIED="1325778947102" LINK="http://xd4.xanga.com/318f706008235250448188/b198774181.jpg"/>
+<node TEXT="Un objet =" ID="ID_34907869" CREATED="1325778957563" MODIFIED="1325778965642">
+<node TEXT="Un type (poign&#xe9;e, tranchant, contondant, mat&#xe9;riau)" ID="ID_1458170252" CREATED="1325778973276" MODIFIED="1325779057988"/>
+<node TEXT="Des points d&apos;accroche (par exemple : baton -&gt; 2 extr&#xe9;mit&#xe9;s)" ID="ID_369192699" CREATED="1325779059757" MODIFIED="1325779085884"/>
+</node>
+<node TEXT="Probl&#xe8;me pour les objets &quot;complexes&quot; (arme &#xe0; feu,..)" ID="ID_326189305" CREATED="1325779104521" MODIFIED="1325779157135"/>
+<node TEXT="+ syst&#xe8;me de craft plus habituel pour cr&#xe9;ation d&apos;&#xe9;l&#xe9;ments (fer+charbon -&gt; acier)" ID="ID_1856878285" CREATED="1325779271531" MODIFIED="1325779318967"/>
 </node>
 </node>
 <node TEXT="objets" ID="ID_1204609428" CREATED="1325770872951" MODIFIED="1325770875044">
 <node TEXT="Miaou" ID="ID_38280088" CREATED="1325771071495" MODIFIED="1325771072396">
 <node TEXT="objets avec caract&#xe9;ristiques" ID="ID_1414636278" CREATED="1325630418347" MODIFIED="1325770833284">
-<node TEXT="un morceau de bois : son niveau de dmg d&#xe9;pend de son poids, de sa longueur, de m&#xea;me la maniabilit&#xe9; (moteur physique)" ID="ID_129219355" CREATED="1325630424330" MODIFIED="1325630461553"/>
+<node TEXT="un morceau de bois : son niveau de dmg d&#xe9;pend de son poids, de sa longueur, de m&#xea;me la maniabilit&#xe9; (moteur physique)" ID="ID_129219355" CREATED="1325630424330" MODIFIED="1325630461553">
+<node TEXT="Type de d&#xe9;gats (contondant / tranchant)" ID="ID_395788323" CREATED="1325779782755" MODIFIED="1325780043976">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Usure ?" ID="ID_1669069070" CREATED="1325779801838" MODIFIED="1325780050463">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
 <node TEXT="lien au craft" ID="ID_69103314" CREATED="1325771185470" MODIFIED="1325771215835" LINK="#ID_744656379"/>
 </node>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1934370464" CREATED="1325770876039" MODIFIED="1325770880363">
-<node TEXT="objets utilisables contre objets pour construire" ID="ID_1639811459" CREATED="1325770881118" MODIFIED="1325770911587"/>
+<node TEXT="3 cat&#xe9;gories : Construction, craft, assemblables" ID="ID_1639811459" CREATED="1325770881118" MODIFIED="1325779264598">
+<node TEXT="Construction (pierre, bois...) -&gt; maison (+ modif terrain ?)" ID="ID_471160217" CREATED="1325779334758" MODIFIED="1325779389360"/>
+<node TEXT="Craft -&gt; (eau, fer, chair humaine,...)" ID="ID_1439240561" CREATED="1325779368601" MODIFIED="1325779578443"/>
+<node TEXT="Assemblage (baton, lame de hache, cord...) -&gt; equipement, construction, ..." ID="ID_1034458797" CREATED="1325779493089" MODIFIED="1325779573684"/>
+</node>
 </node>
 </node>
 <node TEXT="zombies, mobs" ID="ID_1597154977" CREATED="1325630021314" MODIFIED="1325768633235">
 <node TEXT="Poulpe" ID="ID_712673440" CREATED="1325771459199" MODIFIED="1325771461036">
 <node TEXT="mobs directeur, plus fort, qui trouve les faiblesses" ID="ID_1310326443" CREATED="1325771461662" MODIFIED="1325771483381"/>
+</node>
+<node TEXT="Ylliasviel" ID="ID_1961005639" CREATED="1325771425710" MODIFIED="1325771429235">
+<node TEXT="est-ce qu&apos;ils peuvent se servir les uns des autres pour monter par dessus un mur ?" ID="ID_898225639" CREATED="1325771429902" MODIFIED="1325771454261"/>
+<node TEXT="Mob volants (corbeaux), nageant ?" ID="ID_1705730899" CREATED="1325780144537" MODIFIED="1325780173703"/>
 </node>
 </node>
 <node TEXT="code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1325770453628">
@@ -141,13 +162,17 @@
 </node>
 <node TEXT="modification de l&apos;environnement" ID="ID_42894344" CREATED="1325771350918" MODIFIED="1325771357683">
 <node TEXT="Miaou" ID="ID_1098235939" CREATED="1325771358343" MODIFIED="1325771359163">
-<node TEXT="creuser" ID="ID_974818514" CREATED="1325771359791" MODIFIED="1325771361947"/>
+<node TEXT="creuser" ID="ID_974818514" CREATED="1325771359791" MODIFIED="1325771361947">
+<node TEXT="ok mais peut &#xea;tre que sur 1 niveau sous le sol alors.. (les zombies se noient-ils ?) sinon &#xe7;a va devenir gal&#xe8;re" ID="ID_65989126" CREATED="1325780223497" MODIFIED="1325780361206">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Quid d&apos;une maison troglodyte ? si on peut creuser dans une montagne.. et &#xe7;a m&apos;a l&apos;air cheat&#xe9;." ID="ID_1729039325" CREATED="1325780273357" MODIFIED="1325780367533">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
 <node TEXT="poser" ID="ID_1696554793" CREATED="1325771362166" MODIFIED="1325771363132"/>
 <node TEXT="construire" ID="ID_417523581" CREATED="1325771363367" MODIFIED="1325771367812"/>
 <node TEXT="est-ce que les zomb s&apos;entassent et &#xe7;a g&#xe8;ne les suivants ?" ID="ID_288824884" CREATED="1325771368086" MODIFIED="1325771413787"/>
-</node>
-<node TEXT="Ylliasviel" ID="ID_1961005639" CREATED="1325771425710" MODIFIED="1325771429235">
-<node TEXT="est-ce qu&apos;ils peuvent se servir les uns des autres pour monter par dessus un mur ?" ID="ID_898225639" CREATED="1325771429902" MODIFIED="1325771454261"/>
 </node>
 </node>
 </node>
