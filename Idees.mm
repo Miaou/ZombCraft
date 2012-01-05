@@ -48,6 +48,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
+<node TEXT="Ylliasviel" ID="ID_1360919955" CREATED="1325780732309" MODIFIED="1325780737279">
+<node TEXT="Phase d&apos;attaque de la horde : FPS ?" ID="ID_1876268827" CREATED="1325780739188" MODIFIED="1325780814366"/>
+</node>
 </node>
 <node TEXT="Graphisme" ID="ID_374824104" CREATED="1325770048878" MODIFIED="1325770054436">
 <node TEXT="Miaou" ID="ID_1656780903" CREATED="1325770055375" MODIFIED="1325770057506">
@@ -166,13 +169,24 @@
 <node TEXT="ok mais peut &#xea;tre que sur 1 niveau sous le sol alors.. (les zombies se noient-ils ?) sinon &#xe7;a va devenir gal&#xe8;re" ID="ID_65989126" CREATED="1325780223497" MODIFIED="1325780361206">
 <icon BUILTIN="flag-pink"/>
 </node>
-<node TEXT="Quid d&apos;une maison troglodyte ? si on peut creuser dans une montagne.. et &#xe7;a m&apos;a l&apos;air cheat&#xe9;." ID="ID_1729039325" CREATED="1325780273357" MODIFIED="1325780367533">
+<node TEXT="Quid d&apos;une maison troglodyte ? si on peut creuser dans une montagne.. et &#xe7;a m&apos;a l&apos;air cheat&#xe9;. et on peut aussi se terrer dans un trou en attendant la nuit sans s&apos;occuper de sa maison." ID="ID_1729039325" CREATED="1325780273357" MODIFIED="1325780834210">
 <icon BUILTIN="flag-pink"/>
 </node>
 </node>
 <node TEXT="poser" ID="ID_1696554793" CREATED="1325771362166" MODIFIED="1325771363132"/>
 <node TEXT="construire" ID="ID_417523581" CREATED="1325771363367" MODIFIED="1325771367812"/>
 <node TEXT="est-ce que les zomb s&apos;entassent et &#xe7;a g&#xe8;ne les suivants ?" ID="ID_288824884" CREATED="1325771368086" MODIFIED="1325771413787"/>
+</node>
+</node>
+<node TEXT="Attaque de la Hordes" ID="ID_1046689445" CREATED="1325780888296" MODIFIED="1325780896229">
+<node TEXT="Ylliasviel" ID="ID_1449586240" CREATED="1325780898909" MODIFIED="1325780902439">
+<node TEXT="Suffisamment espac&#xe9;es pour permettre de l&apos;exploration" ID="ID_1708450484" CREATED="1325780910444" MODIFIED="1325780930910"/>
+<node TEXT="Type de jeu pendant attaque (FPS, D&#xe9;fense de chateau, quoi si pas d&apos;arme a distance dispo ?)" ID="ID_935056092" CREATED="1325780931691" MODIFIED="1325780961892"/>
+<node TEXT="Que se passe-t&apos;il si on est hors de la maison ?" ID="ID_818615867" CREATED="1325780962289" MODIFIED="1325780983650"/>
+<node TEXT="Maison endommageable ?" ID="ID_844664085" CREATED="1325780983856" MODIFIED="1325780989989">
+<node TEXT="Probl&#xe8;me de cubes plus &quot;stackables&quot;" ID="ID_1075397786" CREATED="1325781043288" MODIFIED="1325781071574"/>
+</node>
+<node TEXT="Horde de plus en plus grosse ? le jeu doit-il conduire a la mort ?" ID="ID_995201593" CREATED="1325780990395" MODIFIED="1325781019631"/>
 </node>
 </node>
 </node>
