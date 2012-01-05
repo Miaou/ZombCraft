@@ -106,7 +106,6 @@
 <node TEXT="exemple de l&apos;&#xe9;lectricit&#xe9; : heu, &#xe7;a aussi &#xe7;a sera de la recette. Mais &#xe7;a para&#xee;t essentiel" ID="ID_504710798" CREATED="1325630842154" MODIFIED="1325630866711">
 <node TEXT="(lanceur magn&#xe9;tique, lac &#xe9;lectrifi&#xe9;)" ID="ID_1443265388" CREATED="1325630906874" MODIFIED="1325630925183"/>
 </node>
-<node TEXT="Premier ajout (test)" POSITION="left" ID="ID_1017576051" CREATED="1325758508727" MODIFIED="1325758513709"/>
 </node>
 <node TEXT="Poulpe" ID="ID_1930110309" CREATED="1325768592687" MODIFIED="1325768595571">
 <node TEXT="arbre de recettes" ID="ID_1172437067" CREATED="1325768599006" MODIFIED="1325768603228"/>
