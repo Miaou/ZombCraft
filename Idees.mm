@@ -66,6 +66,9 @@
 <node TEXT="inconv&#xe9;nient de l&apos;impl&#xe9;mentation (&#xe0; &#xe9;tudier)" ID="ID_326418423" CREATED="1325770410718" MODIFIED="1325770422955">
 <icon BUILTIN="flag-green"/>
 </node>
+<node TEXT="avantage de l&apos;&#xe9;dition par git : svg est un sous XML, donc les &#xe9;l&#xe9;ments dessin&#xe9;es sont &#xe9;crites en texte, une par ligne, donc git peut fusionner des modifs de diff&#xe9;rents svg..." ID="ID_1923663640" CREATED="1325772319210" MODIFIED="1325772364363">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1325770327036"/>
 </node>
