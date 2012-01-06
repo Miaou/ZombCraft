@@ -244,7 +244,14 @@
 <node TEXT="Hordes espac&#xe9;es" ID="ID_453282681" CREATED="1325801548951" MODIFIED="1325801606021"/>
 <node TEXT="voire d&#xe9;clench&#xe9;es quand on est pr&#xea;t" ID="ID_1494085238" CREATED="1325801606279" MODIFIED="1325801622148"/>
 <node TEXT="automatiser la difficult&#xe9;..." ID="ID_261631031" CREATED="1325801622639" MODIFIED="1325801634572"/>
-<node TEXT="horde : nombre. Il faut tout kill ! (pour explorer tranquille)" ID="ID_617669417" CREATED="1325801731015" MODIFIED="1325801757813"/>
+<node TEXT="horde : nombre. Il faut tout kill ! (pour explorer tranquille)" ID="ID_617669417" CREATED="1325801731015" MODIFIED="1325801757813">
+<node TEXT="Ok, mais je suis pour garder quelques Zombies dehors pendant l&apos;exploration." ID="ID_449722262" CREATED="1325839732774" MODIFIED="1325839774464">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Sinon, pourquoi crafter des armes ?" ID="ID_1449436585" CREATED="1325839758959" MODIFIED="1325839779552">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1449586240" CREATED="1325780898909" MODIFIED="1325780902439">
 <node TEXT="Suffisamment espac&#xe9;es pour permettre de l&apos;exploration" ID="ID_1708450484" CREATED="1325780910444" MODIFIED="1325780930910"/>
@@ -267,22 +274,34 @@
 <node TEXT="auquel cas il faut sortir pour avoir le temps d&apos;explorer avant la vague suivante" ID="ID_146021561" CREATED="1325801707096" MODIFIED="1325801727424">
 <icon BUILTIN="flag-green"/>
 </node>
+<node TEXT="Dans ce cas tu construit une structure de type h&#xe9;risson et t&apos;attend que &#xe7;a passe. Ce que je veux dire, c&apos;est que la, seul le pouvoir offensif est important, peut importe si ta maison est en bois ou en b&#xe9;ton." ID="ID_1163058518" CREATED="1325839377908" MODIFIED="1325839583305">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Par contre, il ne faut pas non plus que les Zombies rasent tout le terrain (et donc toutes les ressources). A g&#xe9;rer avec l&apos;IA je suppose." ID="ID_481519512" CREATED="1325839523806" MODIFIED="1325839588665">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="Horde de plus en plus grosse ? le jeu doit-il conduire a la mort ?" ID="ID_995201593" CREATED="1325780990395" MODIFIED="1325781019631">
-<node TEXT="il faudra trouver un &#xe9;quilibre" ID="ID_83549423" CREATED="1325801872543" MODIFIED="1325801960088">
-<icon BUILTIN="flag-green"/>
-</node>
-<node TEXT="je pense que conduire &#xe0; la mort est violent" ID="ID_574720561" CREATED="1325801886719" MODIFIED="1325801960088">
+<node TEXT="il faudra trouver un &#xe9;quilibre, je pense que conduire a la mort est violent" ID="ID_83549423" CREATED="1325801872543" MODIFIED="1325839691477">
 <icon BUILTIN="flag-green"/>
 </node>
 <node TEXT="mais y&apos;a un moment o&#xf9; effectivement &#xe7;a doit s&apos;arr&#xea;ter" ID="ID_1807461330" CREATED="1325801896679" MODIFIED="1325801960088">
 <icon BUILTIN="flag-green"/>
+<node TEXT="+1" ID="ID_777245342" CREATED="1325839807851" MODIFIED="1325839820375">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Scoring sur le nombre de jour surv&#xe9;cus" ID="ID_1158125077" CREATED="1325839826039" MODIFIED="1325839843495">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="sinon on peut faire une fin de plus en plus compliqu&#xe9;, ce qui est sympa pour le moral" ID="ID_474754563" CREATED="1325801927623" MODIFIED="1325801960088">
 <icon BUILTIN="flag-green"/>
 </node>
 <node TEXT="et on pourrait garder nos maps" ID="ID_1642395423" CREATED="1325801950807" MODIFIED="1325801960087">
 <icon BUILTIN="flag-green"/>
+<node TEXT="T&apos;entend quoi par la ?" ID="ID_1239982890" CREATED="1325839703241" MODIFIED="1325839716184">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 </node>
 </node>
@@ -297,7 +316,18 @@
 </node>
 </node>
 <node TEXT="Il faudra trouver un moyen de prendre des d&#xe9;cisions" POSITION="right" ID="ID_889824046" CREATED="1325802155687" MODIFIED="1325802166772">
-<node TEXT="la carte commence &#xe0; &#xea;tre grande" ID="ID_376771956" CREATED="1325802167240" MODIFIED="1325802174538"/>
+<node TEXT="la carte commence &#xe0; &#xea;tre grande" ID="ID_376771956" CREATED="1325802167240" MODIFIED="1325839304619">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Effectivement mais l&apos;avantage et qu&apos;on peut ne pas la d&#xe9;plier completement (points par points). Je pensais laisser tous dire leurs id&#xe9;es, faire discussions sur chaque id&#xe9;es, puis cr&#xe9;er un intervenant &quot;d&#xe9;cision finale&quot; qui r&#xe9;sume les choix dans chaque point." ID="ID_1098948008" CREATED="1325839126673" MODIFIED="1325839284221">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="En fait le vrai probl&#xe8;me va &#xea;tre de d&#xe9;tecter qu&apos;est ce qui a &#xe9;t&#xe9; rajout&#xe9; dans la masse &#xe0; partir d&apos;un certain point.." ID="ID_417926159" CREATED="1325839209313" MODIFIED="1325839600318">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Je propose de faire des commit plus souvent et plus d&#xe9;taill&#xe9;s (indiquer quelles sections ont &#xe9;t&#xe9; compl&#xe9;t&#xe9;es &#xe0; chaque commit avec pas plus de 2 ou 3 sections par commit). Ca devrait permettre de suivre plus facilement." ID="ID_1313834201" CREATED="1325839592973" MODIFIED="1325839656553">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 </node>
 </map>
