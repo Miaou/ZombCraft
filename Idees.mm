@@ -32,11 +32,12 @@
 <node TEXT="D&#xe9;bats" POSITION="right" ID="ID_818138499" CREATED="1325768485342" MODIFIED="1325768486571">
 <node TEXT="Networking" ID="ID_1160654014" CREATED="1325770762591" MODIFIED="1325770764996">
 <node TEXT="Miaou" ID="ID_473684685" CREATED="1325770765854" MODIFIED="1325770768405">
-<node TEXT="&quot;communautaire&quot; : LAN" ID="ID_137317756" CREATED="1325770769815" MODIFIED="1325770783689">
+<node TEXT="&quot;communautaire&quot; : LAN au moins" ID="ID_137317756" CREATED="1325770769815" MODIFIED="1325843659392">
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
+<node TEXT="nombre de joueurs : 1 (quand m&#xea;me) &#xe0; 6, optimal 4" ID="ID_75936886" CREATED="1325843659627" MODIFIED="1325843685592"/>
 </node>
 </node>
 <node TEXT="2D vs 3D" ID="ID_722806428" CREATED="1325628234369" MODIFIED="1325628241883">
@@ -328,14 +329,16 @@
 <node TEXT="la carte commence &#xe0; &#xea;tre grande" ID="ID_376771956" CREATED="1325802167240" MODIFIED="1325839304619">
 <icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="Effectivement mais l&apos;avantage et qu&apos;on peut ne pas la d&#xe9;plier completement (points par points). Je pensais laisser tous dire leurs id&#xe9;es, faire discussions sur chaque id&#xe9;es, puis cr&#xe9;er un intervenant &quot;d&#xe9;cision finale&quot; qui r&#xe9;sume les choix dans chaque point." ID="ID_1098948008" CREATED="1325839126673" MODIFIED="1325839284221">
+<node TEXT="Effectivement mais l&apos;avantage est qu&apos;on peut ne pas la d&#xe9;plier completement (points par points). Je pensais laisser tous dire leurs id&#xe9;es, faire discussions sur chaque id&#xe9;es, puis cr&#xe9;er un intervenant &quot;d&#xe9;cision finale&quot; qui r&#xe9;sume les choix dans chaque point." ID="ID_1098948008" CREATED="1325839126673" MODIFIED="1325843632167">
 <icon BUILTIN="flag-pink"/>
 </node>
 <node TEXT="En fait le vrai probl&#xe8;me va &#xea;tre de d&#xe9;tecter qu&apos;est ce qui a &#xe9;t&#xe9; rajout&#xe9; dans la masse &#xe0; partir d&apos;un certain point.." ID="ID_417926159" CREATED="1325839209313" MODIFIED="1325839600318">
 <icon BUILTIN="flag-pink"/>
 </node>
-<node TEXT="Je propose de faire des commit plus souvent et plus d&#xe9;taill&#xe9;s (indiquer quelles sections ont &#xe9;t&#xe9; compl&#xe9;t&#xe9;es &#xe0; chaque commit avec pas plus de 2 ou 3 sections par commit). Ca devrait permettre de suivre plus facilement." ID="ID_1313834201" CREATED="1325839592973" MODIFIED="1325839656553">
+<node TEXT="Je propose de faire des commit plus souvent et plus d&#xe9;taill&#xe9;s (indiquer quelles sections ont &#xe9;t&#xe9; compl&#xe9;t&#xe9;es &#xe0; chaque commit avec pas plus de 2 ou 3 sections par commit). Ca devrait permettre de suivre plus facilement." ID="ID_1313834201" CREATED="1325839592973" MODIFIED="1325843640149">
 <icon BUILTIN="flag-pink"/>
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
 </node>
