@@ -190,6 +190,12 @@
 <icon BUILTIN="flag-green"/>
 <node TEXT="c&apos;est &#xe0; dire comme Minecraft, on les s&#xe9;pare pas explicitement" ID="ID_1701990662" CREATED="1325800945192" MODIFIED="1325800965573"/>
 <node TEXT="juste les assemblages entrent pas dans les recettes" ID="ID_1810547319" CREATED="1325800965872" MODIFIED="1325800977756"/>
+<node TEXT="Oui bien sur, &#xe9;tant donn&#xe9; qu&apos;une branche par exemple peut &#xea;tre &#xe0; la fois de la construction (pieu), de l&apos;assemblage, et du craft (pour faire echelle si multi niveau par ex)" ID="ID_1590087241" CREATED="1325840077594" MODIFIED="1325840165460">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Mais je pense que pour le d&#xe9;veloppement, on va avoir besoin de les diff&#xe9;rencier car caract&#xe9;ristiques diff&#xe9;rentes fonction du type" ID="ID_1197531326" CREATED="1325840168097" MODIFIED="1325840194053">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 </node>
 </node>
@@ -208,6 +214,9 @@
 </node>
 <node TEXT="sauf si ils gardent la m&#xea;me altitude" ID="ID_1467103872" CREATED="1325801363531" MODIFIED="1325801377037">
 <icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Effectivement j&apos;avais pas pens&#xe9; &#xe0; &#xe7;a.." ID="ID_902263597" CREATED="1325840034312" MODIFIED="1325840049110">
+<icon BUILTIN="flag-pink"/>
 </node>
 </node>
 </node>
