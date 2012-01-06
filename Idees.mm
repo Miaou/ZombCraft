@@ -49,7 +49,14 @@
 </node>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1360919955" CREATED="1325780732309" MODIFIED="1325780737279">
-<node TEXT="Phase d&apos;attaque de la horde : FPS ?" ID="ID_1876268827" CREATED="1325780739188" MODIFIED="1325780814366"/>
+<node TEXT="Phase d&apos;attaque de la horde : FPS ?" ID="ID_1876268827" CREATED="1325780739188" MODIFIED="1325780814366">
+<node TEXT="En fait, je pensais faire comme MineCraft ou MiniCraft, c&#xe0;d toujours contr&#xf4;ler le perso" ID="ID_1340505011" CREATED="1325800139219" MODIFIED="1325800187779">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="pas FPS, &#xe7;a imposerait full 3D" ID="ID_1293491361" CREATED="1325800172446" MODIFIED="1325800187778">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Graphisme" ID="ID_374824104" CREATED="1325770048878" MODIFIED="1325770054436">
@@ -79,49 +86,83 @@
 <node TEXT="son, musiques" ID="ID_389802305" CREATED="1325770547735" MODIFIED="1325770552068">
 <node TEXT="Miaou" ID="ID_1550449720" CREATED="1325770552567" MODIFIED="1325770553891">
 <node TEXT="??????????" ID="ID_1323266169" CREATED="1325770554398" MODIFIED="1325770556036"/>
+<node TEXT="Mouhahaha" ID="ID_1681779271" CREATED="1325800329130" MODIFIED="1325800332782"/>
 </node>
 </node>
 <node TEXT="crafting" ID="ID_19604293" CREATED="1325768589142" MODIFIED="1325768590499">
 <node TEXT="Miaou" ID="ID_986927320" CREATED="1325768596446" MODIFIED="1325768597666">
 <node TEXT="&#xe9;quilibre recette-d&#xe9;couverte" ID="ID_1310472510" CREATED="1325770569118" MODIFIED="1325770600292">
-<node TEXT="garder le plus de libert&#xe9;s possibles" ID="ID_467966497" CREATED="1325770561383" MODIFIED="1325770568875"/>
-<node TEXT="garder de l&apos;int&#xe9;r&#xea;t pour nous qui cr&#xe9;ons les recettes" ID="ID_545619624" CREATED="1325770701167" MODIFIED="1325770711947"/>
-<node TEXT="Id&#xe9;es d&apos;armes &#xe0; feu compos&#xe9;es" ID="ID_1383101752" CREATED="1325629255433" MODIFIED="1325770734756">
+<node TEXT="garder le plus de libert&#xe9;s possibles" ID="ID_467966497" CREATED="1325770561383" MODIFIED="1325800364873">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="garder de l&apos;int&#xe9;r&#xea;t du crafting pour nous qui cr&#xe9;ons les recettes" ID="ID_545619624" CREATED="1325770701167" MODIFIED="1325800532118">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Id&#xe9;es d&apos;armes &#xe0; feu compos&#xe9;es" ID="ID_1383101752" CREATED="1325629255433" MODIFIED="1325800364874">
+<icon BUILTIN="flag-green"/>
 <node TEXT="une arme = culasse(chargeur)+canon+syst&#xe8;me de chargement+mire" ID="ID_70070450" CREATED="1325629263674" MODIFIED="1325629331676"/>
 <node TEXT="une munition = douille+poudre+balle(s)" ID="ID_314922727" CREATED="1325629332134" MODIFIED="1325629353167"/>
 </node>
-<node TEXT="on pourrait faire un peu aussi comme dans Dead Rising 2" ID="ID_309857456" CREATED="1325630324226" MODIFIED="1325630338688">
+<node TEXT="on pourrait faire un peu aussi comme dans Dead Rising 2" ID="ID_309857456" CREATED="1325630324226" MODIFIED="1325800364874">
+<icon BUILTIN="flag-green"/>
 <node TEXT="pour rappel, le mec voit des affiches de films d&apos;horreur barr&#xe9;s, et reproduit les atrocit&#xe9;s pour killer les zz" ID="ID_1190536762" CREATED="1325630339026" MODIFIED="1325630370791"/>
 <node TEXT="donc c&apos;est du craft" ID="ID_1531921143" CREATED="1325630371050" MODIFIED="1325630375647"/>
 <node TEXT="bien &quot;script&#xe9;&quot;" ID="ID_1060213393" CREATED="1325630376186" MODIFIED="1325630380843"/>
 <node TEXT="mais on se retrouve &#xe0; mettre des clous sur une bouteille de gaz pour faire une bombe" ID="ID_1569782626" CREATED="1325630381061" MODIFIED="1325630399544"/>
 <node TEXT="ou des tron&#xe7;onneuses au bout d&apos;une pagaie." ID="ID_1932749492" CREATED="1325630399794" MODIFIED="1325630412319"/>
 </node>
+<node TEXT="trop de libert&#xe9;s = craft n&apos;impe dans ts les sens et cheat&#xe9;" ID="ID_807675903" CREATED="1325629367297" MODIFIED="1325800560518">
+<icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="trop de libert&#xe9;s = craft n&apos;impe dans ts les sens" ID="ID_807675903" CREATED="1325629367297" MODIFIED="1325629378551"/>
-<node TEXT="trop de recettes = craft frustrant car automatisable" ID="ID_665482978" CREATED="1325629378793" MODIFIED="1325629392623"/>
+<node TEXT="trop orient&#xe9; recettes = craft frustrant car c&apos;est nous qu&apos;on les invente" ID="ID_665482978" CREATED="1325629378793" MODIFIED="1325800569674">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
 <node TEXT="libert&#xe9; de cr&#xe9;ation bas&#xe9;e sur des caract&#xe9;ristiques objets" ID="ID_744656379" CREATED="1325771189295" MODIFIED="1325771208228">
-<node TEXT="on pourrait mettre un morceau de m&#xe9;tal pour faire une lance" ID="ID_679715652" CREATED="1325630461801" MODIFIED="1325630472799"/>
-<node TEXT="choisir comment s&apos;en servir (tranch&#xe9;, coup d&apos;estoc, ...)" ID="ID_827488666" CREATED="1325630473050" MODIFIED="1325630517922"/>
+<node TEXT="on pourrait mettre un morceau de m&#xe9;tal pour faire une lance" ID="ID_679715652" CREATED="1325630461801" MODIFIED="1325800405097">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="choisir comment s&apos;en servir (tranch&#xe9;, coup d&apos;estoc, ...)" ID="ID_827488666" CREATED="1325630473050" MODIFIED="1325800405098">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="Cr&#xe9;er des recettes &quot;in-game&quot; que le moteur du jeu jugerait cheat&#xe9; ou pas..." ID="ID_324713084" CREATED="1325771225583" MODIFIED="1325771289940"/>
 <node TEXT="exemple du ciment : heu, &#xe7;a, c&apos;est typiquement une recette. Mais on doit pouvoir introduire de l&apos;al&#xe9;atoire" ID="ID_441812163" CREATED="1325630814969" MODIFIED="1325630841223"/>
 <node TEXT="exemple de l&apos;&#xe9;lectricit&#xe9; : heu, &#xe7;a aussi &#xe7;a sera de la recette. Mais &#xe7;a para&#xee;t essentiel" ID="ID_504710798" CREATED="1325630842154" MODIFIED="1325630866711">
-<node TEXT="(lanceur magn&#xe9;tique, lac &#xe9;lectrifi&#xe9;)" ID="ID_1443265388" CREATED="1325630906874" MODIFIED="1325630925183"/>
+<node TEXT="(lanceur magn&#xe9;tique, lac &#xe9;lectrifi&#xe9;)" ID="ID_1443265388" CREATED="1325630906874" MODIFIED="1325800409713">
+<icon BUILTIN="flag-green"/>
 </node>
+</node>
+<node TEXT="objets &quot;rares&quot; que dropp&#xe9;s ? (savoir oubli&#xe9; dans un contexte survival subite)" ID="ID_187562821" CREATED="1325800704561" MODIFIED="1325800737350"/>
 </node>
 <node TEXT="Poulpe" ID="ID_1930110309" CREATED="1325768592687" MODIFIED="1325768595571">
 <node TEXT="arbre de recettes" ID="ID_1172437067" CREATED="1325768599006" MODIFIED="1325768603228"/>
 <node TEXT="placement &#xe0; la Minecraft" ID="ID_1788787148" CREATED="1325768604942" MODIFIED="1325768610308"/>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1057435362" CREATED="1325771765495" MODIFIED="1325771768531">
-<node TEXT="Syst&#xe8;me d&apos;assemblage par &quot;points d&apos;accroche&quot; limit&#xe9; en taille (cf vaisseau Gummy dans Kingdom Hearts)" ID="ID_969411457" CREATED="1325771769318" MODIFIED="1325778947102" LINK="http://xd4.xanga.com/318f706008235250448188/b198774181.jpg"/>
+<node TEXT="Syst&#xe8;me d&apos;assemblage par &quot;points d&apos;accroche&quot; limit&#xe9; en taille (cf vaisseau Gummy dans Kingdom Hearts)" ID="ID_969411457" CREATED="1325771769318" MODIFIED="1325778947102" LINK="http://xd4.xanga.com/318f706008235250448188/b198774181.jpg">
+<node TEXT="Je vote pour. R&#xe9;alisable ?" ID="ID_1163226453" CREATED="1325800765441" MODIFIED="1325800791445">
+<icon BUILTIN="flag-green"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
 <node TEXT="Un objet =" ID="ID_34907869" CREATED="1325778957563" MODIFIED="1325778965642">
 <node TEXT="Un type (poign&#xe9;e, tranchant, contondant, mat&#xe9;riau)" ID="ID_1458170252" CREATED="1325778973276" MODIFIED="1325779057988"/>
 <node TEXT="Des points d&apos;accroche (par exemple : baton -&gt; 2 extr&#xe9;mit&#xe9;s)" ID="ID_369192699" CREATED="1325779059757" MODIFIED="1325779085884"/>
 </node>
-<node TEXT="Probl&#xe8;me pour les objets &quot;complexes&quot; (arme &#xe0; feu,..)" ID="ID_326189305" CREATED="1325779104521" MODIFIED="1325779157135"/>
-<node TEXT="+ syst&#xe8;me de craft plus habituel pour cr&#xe9;ation d&apos;&#xe9;l&#xe9;ments (fer+charbon -&gt; acier)" ID="ID_1856878285" CREATED="1325779271531" MODIFIED="1325779318967"/>
+<node TEXT="Probl&#xe8;me pour les objets &quot;complexes&quot; (arme &#xe0; feu,..)" ID="ID_326189305" CREATED="1325779104521" MODIFIED="1325779157135">
+<node TEXT="Je pense au contraire que &#xe7;a le fait pour ce genre de choses (cf la fleche)" ID="ID_31974352" CREATED="1325800619361" MODIFIED="1325800678339" LINK="#ID_1383101752">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="mais effectivement, pour crafter une culasse..." ID="ID_1646147576" CREATED="1325800645585" MODIFIED="1325800697529">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="+ syst&#xe8;me de craft plus habituel pour cr&#xe9;ation d&apos;&#xe9;l&#xe9;ments (fer+charbon -&gt; acier)" ID="ID_1856878285" CREATED="1325779271531" MODIFIED="1325779318967">
+<node TEXT="compl&#xe9;tement." ID="ID_286521695" CREATED="1325800589249" MODIFIED="1325800597470">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="objets" ID="ID_1204609428" CREATED="1325770872951" MODIFIED="1325770875044">
@@ -137,30 +178,38 @@
 </node>
 <node TEXT="lien au craft" ID="ID_69103314" CREATED="1325771185470" MODIFIED="1325771215835" LINK="#ID_744656379"/>
 </node>
+<node TEXT="contruction, j&apos;avais oubli&#xe9;, et modif du terrain" ID="ID_206434102" CREATED="1325800986920" MODIFIED="1325801023584" LINK="#ID_471160217"/>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1934370464" CREATED="1325770876039" MODIFIED="1325770880363">
-<node TEXT="3 cat&#xe9;gories : Construction, craft, assemblables" ID="ID_1639811459" CREATED="1325770881118" MODIFIED="1325779264598">
+<node TEXT="3 cat&#xe9;gories : Construction, craft, assemblables" ID="ID_1639811459" CREATED="1325770881118" MODIFIED="1325801030344">
 <node TEXT="Construction (pierre, bois...) -&gt; maison (+ modif terrain ?)" ID="ID_471160217" CREATED="1325779334758" MODIFIED="1325779389360"/>
 <node TEXT="Craft -&gt; (eau, fer, chair humaine,...)" ID="ID_1439240561" CREATED="1325779368601" MODIFIED="1325779578443"/>
 <node TEXT="Assemblage (baton, lame de hache, cord...) -&gt; equipement, construction, ..." ID="ID_1034458797" CREATED="1325779493089" MODIFIED="1325779573684"/>
 </node>
+<node TEXT="&#xe7;a me semble une bonne id&#xe9;e. Mais ces types ne pourraient pas &#xea;tre implicites ?" ID="ID_871324135" CREATED="1325800911616" MODIFIED="1325800934824">
+<icon BUILTIN="flag-green"/>
+<node TEXT="c&apos;est &#xe0; dire comme Minecraft, on les s&#xe9;pare pas explicitement" ID="ID_1701990662" CREATED="1325800945192" MODIFIED="1325800965573"/>
+<node TEXT="juste les assemblages entrent pas dans les recettes" ID="ID_1810547319" CREATED="1325800965872" MODIFIED="1325800977756"/>
+</node>
 </node>
 </node>
 <node TEXT="zombies, mobs" ID="ID_1597154977" CREATED="1325630021314" MODIFIED="1325768633235">
+<node TEXT="Miaou" ID="ID_1832251144" CREATED="1325801318759" MODIFIED="1325801320413">
+<node TEXT="je reste sans avis positif pour l&apos;instant" ID="ID_1868279715" CREATED="1325801321023" MODIFIED="1325801340604"/>
+</node>
 <node TEXT="Poulpe" ID="ID_712673440" CREATED="1325771459199" MODIFIED="1325771461036">
 <node TEXT="mobs directeur, plus fort, qui trouve les faiblesses" ID="ID_1310326443" CREATED="1325771461662" MODIFIED="1325771483381"/>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1961005639" CREATED="1325771425710" MODIFIED="1325771429235">
 <node TEXT="est-ce qu&apos;ils peuvent se servir les uns des autres pour monter par dessus un mur ?" ID="ID_898225639" CREATED="1325771429902" MODIFIED="1325771454261"/>
-<node TEXT="Mob volants (corbeaux), nageant ?" ID="ID_1705730899" CREATED="1325780144537" MODIFIED="1325780173703"/>
+<node TEXT="Mob volants (corbeaux), nageant ?" ID="ID_1705730899" CREATED="1325780144537" MODIFIED="1325780173703">
+<node TEXT="je pense que c&apos;est difficile si on vole en perspective iso." ID="ID_803327378" CREATED="1325801344191" MODIFIED="1325801377037">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="sauf si ils gardent la m&#xea;me altitude" ID="ID_1467103872" CREATED="1325801363531" MODIFIED="1325801377037">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1325770453628">
-<node TEXT="Miaou" ID="ID_1415368430" CREATED="1325770454142" MODIFIED="1325770455413">
-<node TEXT="en fonction des choix d&apos;au dessus" ID="ID_1949012113" CREATED="1325770456150" MODIFIED="1325770461708"/>
-<node TEXT="suggestions : pygame (interface (fen&#xea;tre Windows, clavier souris), sons), cairo (graphismes vectoriels), pyode (si moteur physique)" ID="ID_1583264454" CREATED="1325770461975" MODIFIED="1325770514234"/>
-<node TEXT="python 2.7 pour faire tourner cairo" ID="ID_528279676" CREATED="1325770515413" MODIFIED="1325770522012"/>
-<node TEXT="python 3.2 parce que c&apos;est mieux" ID="ID_1083611028" CREATED="1325770524143" MODIFIED="1325770534259"/>
 </node>
 </node>
 <node TEXT="modification de l&apos;environnement" ID="ID_42894344" CREATED="1325771350918" MODIFIED="1325771357683">
@@ -172,23 +221,83 @@
 <node TEXT="Quid d&apos;une maison troglodyte ? si on peut creuser dans une montagne.. et &#xe7;a m&apos;a l&apos;air cheat&#xe9;. et on peut aussi se terrer dans un trou en attendant la nuit sans s&apos;occuper de sa maison." ID="ID_1729039325" CREATED="1325780273357" MODIFIED="1325780834210">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="certes. je r&#xe9;fl&#xe9;chis" ID="ID_435388835" CREATED="1325801476847" MODIFIED="1325801487935">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="poser" ID="ID_1696554793" CREATED="1325771362166" MODIFIED="1325771363132"/>
 <node TEXT="construire" ID="ID_417523581" CREATED="1325771363367" MODIFIED="1325771367812"/>
 <node TEXT="est-ce que les zomb s&apos;entassent et &#xe7;a g&#xe8;ne les suivants ?" ID="ID_288824884" CREATED="1325771368086" MODIFIED="1325771413787"/>
+<node TEXT="rajout d&apos;&#xe9;l&#xe9;ments d&apos;attaques/d&#xe9;fenses (lien avec objets)" ID="ID_248703862" CREATED="1325801764867" MODIFIED="1325801978096" LINK="#ID_206434102">
+<node TEXT="pieux" ID="ID_580120574" CREATED="1325801786295" MODIFIED="1325801789293"/>
+<node TEXT="murs" ID="ID_1390638131" CREATED="1325801789495" MODIFIED="1325801791229"/>
+<node TEXT="fosses" ID="ID_1993931121" CREATED="1325801791471" MODIFIED="1325801793853"/>
+<node TEXT="feu" ID="ID_1220765535" CREATED="1325801794086" MODIFIED="1325801796380"/>
+<node TEXT="pont levis ;-)" ID="ID_1785630245" CREATED="1325801801823" MODIFIED="1325801807748"/>
+<node TEXT="arbalettes" ID="ID_631488137" CREATED="1325801825007" MODIFIED="1325801829360"/>
+<node TEXT="canons divers" ID="ID_1799885735" CREATED="1325801829948" MODIFIED="1325801833785"/>
 </node>
 </node>
-<node TEXT="Attaque de la Hordes" ID="ID_1046689445" CREATED="1325780888296" MODIFIED="1325780896229">
+</node>
+<node TEXT="Attaques de la Hordes" ID="ID_1046689445" CREATED="1325780888296" MODIFIED="1325801561317">
+<node TEXT="Miaou" ID="ID_612885743" CREATED="1325801546887" MODIFIED="1325801547788">
+<node TEXT="Hordes espac&#xe9;es" ID="ID_453282681" CREATED="1325801548951" MODIFIED="1325801606021"/>
+<node TEXT="voire d&#xe9;clench&#xe9;es quand on est pr&#xea;t" ID="ID_1494085238" CREATED="1325801606279" MODIFIED="1325801622148"/>
+<node TEXT="automatiser la difficult&#xe9;..." ID="ID_261631031" CREATED="1325801622639" MODIFIED="1325801634572"/>
+<node TEXT="horde : nombre. Il faut tout kill ! (pour explorer tranquille)" ID="ID_617669417" CREATED="1325801731015" MODIFIED="1325801757813"/>
+</node>
 <node TEXT="Ylliasviel" ID="ID_1449586240" CREATED="1325780898909" MODIFIED="1325780902439">
 <node TEXT="Suffisamment espac&#xe9;es pour permettre de l&apos;exploration" ID="ID_1708450484" CREATED="1325780910444" MODIFIED="1325780930910"/>
 <node TEXT="Type de jeu pendant attaque (FPS, D&#xe9;fense de chateau, quoi si pas d&apos;arme a distance dispo ?)" ID="ID_935056092" CREATED="1325780931691" MODIFIED="1325780961892"/>
 <node TEXT="Que se passe-t&apos;il si on est hors de la maison ?" ID="ID_818615867" CREATED="1325780962289" MODIFIED="1325780983650"/>
 <node TEXT="Maison endommageable ?" ID="ID_844664085" CREATED="1325780983856" MODIFIED="1325780989989">
 <node TEXT="Probl&#xe8;me de cubes plus &quot;stackables&quot;" ID="ID_1075397786" CREATED="1325781043288" MODIFIED="1325781071574"/>
+<node TEXT="Minecraft ne g&#xe8;re pas du tout dans ce cas : les mobs ne peuvent juste rien faire" ID="ID_478777738" CREATED="1325801638999" MODIFIED="1325801671456">
+<icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="Horde de plus en plus grosse ? le jeu doit-il conduire a la mort ?" ID="ID_995201593" CREATED="1325780990395" MODIFIED="1325781019631"/>
+<node TEXT="sauf les creeper qui pourraient exploser... Si ils savaient." ID="ID_576289503" CREATED="1325801654375" MODIFIED="1325801671451">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Ce serait bien de pas &#xea;tre impun&#xe9;ment inside" ID="ID_1161224885" CREATED="1325801675719" MODIFIED="1325801727423">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="sauf si la horde est en nombre et pas en temps" ID="ID_1549903581" CREATED="1325801689799" MODIFIED="1325801727424">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="auquel cas il faut sortir pour avoir le temps d&apos;explorer avant la vague suivante" ID="ID_146021561" CREATED="1325801707096" MODIFIED="1325801727424">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
+<node TEXT="Horde de plus en plus grosse ? le jeu doit-il conduire a la mort ?" ID="ID_995201593" CREATED="1325780990395" MODIFIED="1325781019631">
+<node TEXT="il faudra trouver un &#xe9;quilibre" ID="ID_83549423" CREATED="1325801872543" MODIFIED="1325801960088">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="je pense que conduire &#xe0; la mort est violent" ID="ID_574720561" CREATED="1325801886719" MODIFIED="1325801960088">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="mais y&apos;a un moment o&#xf9; effectivement &#xe7;a doit s&apos;arr&#xea;ter" ID="ID_1807461330" CREATED="1325801896679" MODIFIED="1325801960088">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="sinon on peut faire une fin de plus en plus compliqu&#xe9;, ce qui est sympa pour le moral" ID="ID_474754563" CREATED="1325801927623" MODIFIED="1325801960088">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="et on pourrait garder nos maps" ID="ID_1642395423" CREATED="1325801950807" MODIFIED="1325801960087">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1325770453628">
+<node TEXT="Miaou" ID="ID_1415368430" CREATED="1325770454142" MODIFIED="1325770455413">
+<node TEXT="en fonction des choix d&apos;au dessus" ID="ID_1949012113" CREATED="1325770456150" MODIFIED="1325770461708"/>
+<node TEXT="suggestions : pygame (interface (fen&#xea;tre Windows, clavier souris), sons), cairo (graphismes vectoriels), pyode (si moteur physique)" ID="ID_1583264454" CREATED="1325770461975" MODIFIED="1325770514234"/>
+<node TEXT="python 2.7 pour faire tourner cairo" ID="ID_528279676" CREATED="1325770515413" MODIFIED="1325770522012"/>
+<node TEXT="python 3.2 parce que c&apos;est mieux" ID="ID_1083611028" CREATED="1325770524143" MODIFIED="1325770534259"/>
+</node>
+</node>
+</node>
+<node TEXT="Il faudra trouver un moyen de prendre des d&#xe9;cisions" POSITION="right" ID="ID_889824046" CREATED="1325802155687" MODIFIED="1325802166772">
+<node TEXT="la carte commence &#xe0; &#xea;tre grande" ID="ID_376771956" CREATED="1325802167240" MODIFIED="1325802174538"/>
 </node>
 </node>
 </map>
