@@ -261,6 +261,10 @@
 <node TEXT="Sinon, pourquoi crafter des armes ?" ID="ID_1449436585" CREATED="1325839758959" MODIFIED="1325839779552">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Pourquoi ? Pour killer les mobs qui seront &#xe0; nos portes ! :D" ID="ID_1561303046" CREATED="1325844234714" MODIFIED="1325844256270">
+<icon BUILTIN="flag-green"/>
+<icon BUILTIN="smiley-oh"/>
+</node>
 </node>
 </node>
 <node TEXT="Ylliasviel" ID="ID_1449586240" CREATED="1325780898909" MODIFIED="1325780902439">
@@ -290,6 +294,12 @@
 <node TEXT="Par contre, il ne faut pas non plus que les Zombies rasent tout le terrain (et donc toutes les ressources). A g&#xe9;rer avec l&apos;IA je suppose." ID="ID_481519512" CREATED="1325839523806" MODIFIED="1325839588665">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="En fait, je crois que j&apos;ai pas compris la premi&#xe8;re phrase : les cubes plus &quot;stackable&quot;" ID="ID_1763818714" CREATED="1325844531234" MODIFIED="1325844558030">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="d&apos;o&#xf9; ma r&#xe9;ponse vague..." ID="ID_1271237815" CREATED="1325844549642" MODIFIED="1325844558029">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="Horde de plus en plus grosse ? le jeu doit-il conduire a la mort ?" ID="ID_995201593" CREATED="1325780990395" MODIFIED="1325781019631">
 <node TEXT="il faudra trouver un &#xe9;quilibre, je pense que conduire a la mort est violent" ID="ID_83549423" CREATED="1325801872543" MODIFIED="1325839691477">
@@ -311,6 +321,15 @@
 <icon BUILTIN="flag-green"/>
 <node TEXT="T&apos;entend quoi par la ?" ID="ID_1239982890" CREATED="1325839703241" MODIFIED="1325839716184">
 <icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="J&apos;aimerais bien que ce qu&apos;on se fait chier &#xe0; construire, les objets rares qu&apos;on trouve, restent en place" ID="ID_1304978695" CREATED="1325844372354" MODIFIED="1325844478041">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="C&apos;est vrai que c&apos;est plus facile de commencer sur une map &#xe9;quip&#xe9;e, mais c&apos;est frustrant de savoir que tu trouves un objet rare la veille de ta mort..." ID="ID_695045693" CREATED="1325844399778" MODIFIED="1325844478040">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Donc faire peut-&#xea;tre quelque chose de persistant, mais &#xe7;a risque d&apos;&#xea;tre incompatible avec le fait qu&apos;on doivent tous mourrir..." ID="ID_448320834" CREATED="1325844445010" MODIFIED="1325844478038">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
 </node>
