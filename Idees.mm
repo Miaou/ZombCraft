@@ -81,7 +81,21 @@
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1325770327036"/>
+<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1325770327036">
+<node TEXT="on trace au vectoriel" ID="ID_1725860042" CREATED="1325980425898" MODIFIED="1325980483798">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="on fait le pr&#xe9;-rendu des images rasteris&#xe9;e" ID="ID_1161308147" CREATED="1325980433988" MODIFIED="1325980483808">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="le moteur du jeu tournerait donc avec des images" ID="ID_1983927995" CREATED="1325980456788" MODIFIED="1325980483808">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="peut combiner plusieurs avantages..." ID="ID_1471675339" CREATED="1325980469708" MODIFIED="1325980483808">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="style du graphique : si on veut faire style 8-bits, pas besoin de vectoriel" ID="ID_602763713" CREATED="1325980383748" MODIFIED="1325980405988"/>
 </node>
 </node>
 <node TEXT="son, musiques" ID="ID_389802305" CREATED="1325770547735" MODIFIED="1325770552068">
@@ -202,7 +216,12 @@
 </node>
 <node TEXT="zombies, mobs" ID="ID_1597154977" CREATED="1325630021314" MODIFIED="1325768633235">
 <node TEXT="Miaou" ID="ID_1832251144" CREATED="1325801318759" MODIFIED="1325801320413">
-<node TEXT="je reste sans avis positif pour l&apos;instant" ID="ID_1868279715" CREATED="1325801321023" MODIFIED="1325801340604"/>
+<node TEXT="j&apos;avais envie de faire des zz capables d&apos;envoyer leur propre bras (t&#xea;te jambe aussi ?)" ID="ID_652133277" CREATED="1325980513268" MODIFIED="1325980555718">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="zz sacrif&#xe9;, morceaux r&#xe9;cup&#xe9;r&#xe9;s par les autres" ID="ID_522561852" CREATED="1325980539258" MODIFIED="1325980555718">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="Poulpe" ID="ID_712673440" CREATED="1325771459199" MODIFIED="1325771461036">
 <node TEXT="mobs directeur, plus fort, qui trouve les faiblesses" ID="ID_1310326443" CREATED="1325771461662" MODIFIED="1325771483381"/>
