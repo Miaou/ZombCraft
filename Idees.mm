@@ -98,13 +98,13 @@
 <node TEXT="style du graphique : si on veut faire style 8-bits, pas besoin de vectoriel" ID="ID_602763713" CREATED="1325980383748" MODIFIED="1325980405988"/>
 </node>
 </node>
-<node TEXT="son, musiques" ID="ID_389802305" CREATED="1325770547735" MODIFIED="1325770552068">
+<node TEXT="Son, musiques" ID="ID_389802305" CREATED="1325770547735" MODIFIED="1326036977754">
 <node TEXT="Miaou" ID="ID_1550449720" CREATED="1325770552567" MODIFIED="1325770553891">
 <node TEXT="??????????" ID="ID_1323266169" CREATED="1325770554398" MODIFIED="1325770556036"/>
 <node TEXT="Mouhahaha" ID="ID_1681779271" CREATED="1325800329130" MODIFIED="1325800332782"/>
 </node>
 </node>
-<node TEXT="crafting" ID="ID_19604293" CREATED="1325768589142" MODIFIED="1325768590499">
+<node TEXT="Crafting" ID="ID_19604293" CREATED="1325768589142" MODIFIED="1326036973978">
 <node TEXT="Miaou" ID="ID_986927320" CREATED="1325768596446" MODIFIED="1325768597666">
 <node TEXT="&#xe9;quilibre recette-d&#xe9;couverte" ID="ID_1310472510" CREATED="1325770569118" MODIFIED="1325770600292">
 <node TEXT="garder le plus de libert&#xe9;s possibles" ID="ID_467966497" CREATED="1325770561383" MODIFIED="1325800364873">
@@ -180,7 +180,7 @@
 </node>
 </node>
 </node>
-<node TEXT="objets" ID="ID_1204609428" CREATED="1325770872951" MODIFIED="1325770875044">
+<node TEXT="Objets" ID="ID_1204609428" CREATED="1325770872951" MODIFIED="1326036970025">
 <node TEXT="Miaou" ID="ID_38280088" CREATED="1325771071495" MODIFIED="1325771072396">
 <node TEXT="objets avec caract&#xe9;ristiques" ID="ID_1414636278" CREATED="1325630418347" MODIFIED="1325770833284">
 <node TEXT="un morceau de bois : son niveau de dmg d&#xe9;pend de son poids, de sa longueur, de m&#xea;me la maniabilit&#xe9; (moteur physique)" ID="ID_129219355" CREATED="1325630424330" MODIFIED="1325630461553">
@@ -214,12 +214,15 @@
 </node>
 </node>
 </node>
-<node TEXT="zombies, mobs" ID="ID_1597154977" CREATED="1325630021314" MODIFIED="1325768633235">
+<node TEXT="Zombies, mobs" ID="ID_1597154977" CREATED="1325630021314" MODIFIED="1326036967201">
 <node TEXT="Miaou" ID="ID_1832251144" CREATED="1325801318759" MODIFIED="1325801320413">
 <node TEXT="j&apos;avais envie de faire des zz capables d&apos;envoyer leur propre bras (t&#xea;te jambe aussi ?)" ID="ID_652133277" CREATED="1325980513268" MODIFIED="1325980555718">
 <icon BUILTIN="flag-green"/>
 </node>
 <node TEXT="zz sacrif&#xe9;, morceaux r&#xe9;cup&#xe9;r&#xe9;s par les autres" ID="ID_522561852" CREATED="1325980539258" MODIFIED="1325980555718">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="animaux, contaminables ? Ressources de viande ?" ID="ID_1038042038" CREATED="1326037184301" MODIFIED="1326037211645">
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
@@ -241,7 +244,7 @@
 </node>
 </node>
 </node>
-<node TEXT="modification de l&apos;environnement" ID="ID_42894344" CREATED="1325771350918" MODIFIED="1325771357683">
+<node TEXT="Modification de l&apos;environnement" ID="ID_42894344" CREATED="1325771350918" MODIFIED="1326036964162">
 <node TEXT="Miaou" ID="ID_1098235939" CREATED="1325771358343" MODIFIED="1325771359163">
 <node TEXT="creuser" ID="ID_974818514" CREATED="1325771359791" MODIFIED="1325771361947">
 <node TEXT="ok mais peut &#xea;tre que sur 1 niveau sous le sol alors.. (les zombies se noient-ils ?) sinon &#xe7;a va devenir gal&#xe8;re" ID="ID_65989126" CREATED="1325780223497" MODIFIED="1325780361206">
@@ -354,7 +357,29 @@
 </node>
 </node>
 </node>
-<node TEXT="code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1325770453628">
+<node TEXT="Magie" ID="ID_858044594" CREATED="1326036947976" MODIFIED="1326036957090">
+<node TEXT="Miaou" ID="ID_87584131" CREATED="1326036982380" MODIFIED="1326036984993">
+<node TEXT="Ben oui, non ?" ID="ID_227039325" CREATED="1326036985948" MODIFIED="1326037221495">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="J&apos;ai pas trop id&#xe9;es l&#xe0;, mais &#xe7;a me dit bien" ID="ID_568614668" CREATED="1326036990773" MODIFIED="1326037221501">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="(les joueurs de [MMO]RPG, ...)" ID="ID_1353463172" CREATED="1326037007701" MODIFIED="1326037221500">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="sorts d&apos;attaques, de d&#xe9;fenses, de l&#xe9;vitation, de conversion de zz&lt;-&gt;homme" ID="ID_1313365042" CREATED="1326037025013" MODIFIED="1326037221499">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="peut-&#xea;tre par l&#xe0; qu&apos;on cr&#xe9;rait des nouvelles recettes de craft" ID="ID_701629248" CREATED="1326037035492" MODIFIED="1326037221496">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="cheat&#xe9; ? Hors sujet ? pas compatible avec le survival ?" ID="ID_1158265475" CREATED="1326037151509" MODIFIED="1326037221495">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+</node>
+<node TEXT="Code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1326036960146">
 <node TEXT="Miaou" ID="ID_1415368430" CREATED="1325770454142" MODIFIED="1325770455413">
 <node TEXT="en fonction des choix d&apos;au dessus" ID="ID_1949012113" CREATED="1325770456150" MODIFIED="1325770461708"/>
 <node TEXT="suggestions : pygame (interface (fen&#xea;tre Windows, clavier souris), sons), cairo (graphismes vectoriels), pyode (si moteur physique)" ID="ID_1583264454" CREATED="1325770461975" MODIFIED="1325770514234"/>
