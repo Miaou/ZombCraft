@@ -42,7 +42,7 @@
 </node>
 <node TEXT="2D vs 3D" ID="ID_722806428" CREATED="1325628234369" MODIFIED="1325628241883">
 <node TEXT="Miaou" ID="ID_767081588" CREATED="1325768572471" MODIFIED="1325768576236">
-<node TEXT="2D : vue en coupe (Terraria)" ID="ID_551069156" CREATED="1325768736862" MODIFIED="1325768775068"/>
+<node TEXT="2D : vue en coupe (Terraria, Super Meat Boy)" ID="ID_551069156" CREATED="1325768736862" MODIFIED="1326069254452"/>
 <node TEXT="2D : vue de dessus (Zelda NES, The Binding of Isaac)" ID="ID_635971483" CREATED="1325768759935" MODIFIED="1325768949806"/>
 <node TEXT="3D isom&#xe9;trique : vue en biais (age of empires, Sims)" ID="ID_1914183923" CREATED="1325769033343" MODIFIED="1325769660836"/>
 <node TEXT="full 3D" ID="ID_1319299240" CREATED="1325769849407" MODIFIED="1325769859682">
@@ -62,7 +62,7 @@
 </node>
 <node TEXT="Graphisme" ID="ID_374824104" CREATED="1325770048878" MODIFIED="1325770054436">
 <node TEXT="Miaou" ID="ID_1656780903" CREATED="1325770055375" MODIFIED="1325770057506">
-<node TEXT="full rasteris&#xe9; (png, bmp, jpeg)" ID="ID_1559890333" CREATED="1325770058174" MODIFIED="1325770294691">
+<node TEXT="full rasteris&#xe9; (png, bmp, jpeg)" ID="ID_1559890333" CREATED="1325770058174" MODIFIED="1326070177912">
 <node TEXT="avantage de la simplicit&#xe9;" ID="ID_612648384" CREATED="1325770328190" MODIFIED="1325770399689">
 <icon BUILTIN="flag-green"/>
 </node>
@@ -70,7 +70,7 @@
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="full vectoriel (svg, cairo)" ID="ID_378981719" CREATED="1325770294910" MODIFIED="1325770316500">
+<node TEXT="full vectoriel (svg, cairo)" ID="ID_378981719" CREATED="1325770294910" MODIFIED="1326070177912">
 <node TEXT="avantage de la beaut&#xe9;" ID="ID_1678970108" CREATED="1325770405655" MODIFIED="1325770422954">
 <icon BUILTIN="flag-green"/>
 </node>
@@ -81,7 +81,7 @@
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1325770327036">
+<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1326070177912">
 <node TEXT="on trace au vectoriel" ID="ID_1725860042" CREATED="1325980425898" MODIFIED="1325980483798">
 <icon BUILTIN="flag-green"/>
 </node>
@@ -91,11 +91,62 @@
 <node TEXT="le moteur du jeu tournerait donc avec des images" ID="ID_1983927995" CREATED="1325980456788" MODIFIED="1325980483808">
 <icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="peut combiner plusieurs avantages..." ID="ID_1471675339" CREATED="1325980469708" MODIFIED="1325980483808">
+<node TEXT="peut combiner plusieurs avantages : &#xe9;dition facile, utilisation facile" ID="ID_1471675339" CREATED="1325980469708" MODIFIED="1326070121895">
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="style du graphique : si on veut faire style 8-bits, pas besoin de vectoriel" ID="ID_602763713" CREATED="1325980383748" MODIFIED="1325980405988"/>
+<node TEXT="choix d&apos;un style" ID="ID_1311710976" CREATED="1326069281854" MODIFIED="1326070177912">
+<node TEXT="4-bits (Lemmings, vrai vieux)" ID="ID_666484793" CREATED="1326069446067" MODIFIED="1326069938855">
+<font BOLD="false"/>
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="8-bits (style r&#xe9;tro, contour marqu&#xe9;s, tout carr&#xe9;, pixel art, MiniCraft, MineCraft pour les textures)" ID="ID_288041517" CREATED="1326069578931" MODIFIED="1326069938855">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="&quot;Classique&quot; (&#xe0; la Team Meat (Super Meat Boy, Binding of Isaac) : contour marqu&#xe9;, couleurs limit&#xe9;s, mais pas pixelis&#xe9;)" ID="ID_1302594320" CREATED="1326069643351" MODIFIED="1326069938840">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="autres..." ID="ID_1664582319" CREATED="1326069742995" MODIFIED="1326069938840">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="d&#xe9;bat vectoriel vs pixel" ID="ID_1306533844" CREATED="1326069955009" MODIFIED="1326070177912">
+<node TEXT="j&apos;ai regard&#xe9; comment ils ont fait Super Meat Boy" ID="ID_1497285353" CREATED="1326069757620" MODIFIED="1326069938840">
+<icon BUILTIN="flag-green"/>
+<node TEXT="(j&apos;ai cr&#xe9;er un .py pour d&#xe9;paqueter les donn&#xe9;es)" ID="ID_1468459492" CREATED="1326069899325" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="d&apos;un point de vue technique" ID="ID_742690162" CREATED="1326069800611" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="c&apos;est pas du svg" ID="ID_956230685" CREATED="1326069809323" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="c&apos;est comme &#xe0; la belle &#xe9;poque" ID="ID_1398499960" CREATED="1326069822903" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="c&apos;est des b&#xe8;tes sprites regroup&#xe9;es par th&#xe8;me..." ID="ID_703277169" CREATED="1326069831132" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="avec des effets de zooms, de rotations, d&apos;animations" ID="ID_642368684" CREATED="1326069836023" MODIFIED="1326069934519">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="le juste milieu semble alors &#xea;tre l&apos;hybride (sous hypoth&#xe8;se 2D)" ID="ID_314553620" CREATED="1326069995304" MODIFIED="1326070126427">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="ces choix auront une grande influence sur la programmation !!!" ID="ID_1883065857" CREATED="1326070168677" MODIFIED="1326070200805">
+<node TEXT="que ce soit pour le d&#xe9;velop des outils (animations en particulier)" ID="ID_361782078" CREATED="1326070201406" MODIFIED="1326070265249">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="et m&#xea;me pour le moteur graphique (n&#xe9;cessit&#xe9; de cairo ou non)" ID="ID_78600645" CREATED="1326070224103" MODIFIED="1326070265249">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="et m&#xea;me pour la version de Python utilis&#xe9;e (cairo -&gt; Python 2)" ID="ID_142393841" CREATED="1326070239103" MODIFIED="1326070265233">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Son, musiques" ID="ID_389802305" CREATED="1325770547735" MODIFIED="1326036977754">
