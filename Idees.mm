@@ -343,9 +343,14 @@
 <node TEXT="Ylliasviel" ID="ID_1449586240" CREATED="1325780898909" MODIFIED="1325780902439">
 <node TEXT="Suffisamment espac&#xe9;es pour permettre de l&apos;exploration" ID="ID_1708450484" CREATED="1325780910444" MODIFIED="1325780930910"/>
 <node TEXT="Type de jeu pendant attaque (FPS, D&#xe9;fense de chateau, quoi si pas d&apos;arme a distance dispo ?)" ID="ID_935056092" CREATED="1325780931691" MODIFIED="1325780961892"/>
-<node TEXT="Que se passe-t&apos;il si on est hors de la maison ?" ID="ID_818615867" CREATED="1325780962289" MODIFIED="1325780983650"/>
+<node TEXT="Que se passe-t&apos;il si on est hors de la maison lors de l&apos;attaque ?" ID="ID_818615867" CREATED="1325780962289" MODIFIED="1326098003412"/>
 <node TEXT="Maison endommageable ?" ID="ID_844664085" CREATED="1325780983856" MODIFIED="1325780989989">
-<node TEXT="Probl&#xe8;me de cubes plus &quot;stackables&quot;" ID="ID_1075397786" CREATED="1325781043288" MODIFIED="1325781071574"/>
+<node TEXT="Probl&#xe8;me de cubes plus &quot;stackables&quot; : Si les cubes ont des PV, on peut pas empiler des cubes endommag&#xe9;s entre eux dans l&apos;inventaire. A moins de dire qu&apos;ils regen tous leurs PV &#xe0; la fin de l&apos;attaque" ID="ID_1075397786" CREATED="1325781043288" MODIFIED="1326097922914">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Mais que faire si les attaques s&apos;enchainent ?" ID="ID_487766320" CREATED="1326097904689" MODIFIED="1326097931556">
+<icon BUILTIN="flag-pink"/>
+</node>
 <node TEXT="Minecraft ne g&#xe8;re pas du tout dans ce cas : les mobs ne peuvent juste rien faire" ID="ID_478777738" CREATED="1325801638999" MODIFIED="1325801671456">
 <icon BUILTIN="flag-green"/>
 </node>
@@ -367,7 +372,7 @@
 <node TEXT="Par contre, il ne faut pas non plus que les Zombies rasent tout le terrain (et donc toutes les ressources). A g&#xe9;rer avec l&apos;IA je suppose." ID="ID_481519512" CREATED="1325839523806" MODIFIED="1325839588665">
 <icon BUILTIN="flag-pink"/>
 </node>
-<node TEXT="En fait, je crois que j&apos;ai pas compris la premi&#xe8;re phrase : les cubes plus &quot;stackable&quot;" ID="ID_1763818714" CREATED="1325844531234" MODIFIED="1325844558030">
+<node TEXT="En fait, je crois que j&apos;ai pas compris la premi&#xe8;re phrase : les cubes plus &quot;stackable&quot;" ID="ID_1763818714" CREATED="1325844531234" MODIFIED="1326097977403" LINK="#ID_1075397786">
 <icon BUILTIN="flag-green"/>
 </node>
 <node TEXT="d&apos;o&#xf9; ma r&#xe9;ponse vague..." ID="ID_1271237815" CREATED="1325844549642" MODIFIED="1325844558029">
@@ -403,6 +408,9 @@
 </node>
 <node TEXT="Donc faire peut-&#xea;tre quelque chose de persistant, mais &#xe7;a risque d&apos;&#xea;tre incompatible avec le fait qu&apos;on doivent tous mourrir..." ID="ID_448320834" CREATED="1325844445010" MODIFIED="1325844478038">
 <icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="D&apos;autant plus que quand tu va recommencer le jeu, les vagues recommenceront petites (sinon c&apos;est que tu propose juste un &quot;retour au jour pr&#xe9;c&#xe9;dent la mort&quot;) et le gens se feront chier. T&apos;es mort, c&apos;est le jeu ma pov&apos; Lucette !" ID="ID_1573368878" CREATED="1326097679419" MODIFIED="1326097749135">
+<icon BUILTIN="flag-pink"/>
 </node>
 </node>
 </node>
