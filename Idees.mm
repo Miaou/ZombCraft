@@ -417,6 +417,9 @@
 <node TEXT="D&apos;autant plus que quand tu va recommencer le jeu, les vagues recommenceront petites (sinon c&apos;est que tu propose juste un &quot;retour au jour pr&#xe9;c&#xe9;dent la mort&quot;) et le gens se feront chier. T&apos;es mort, c&apos;est le jeu ma pov&apos; Lucette !" ID="ID_1573368878" CREATED="1326097679419" MODIFIED="1326097749135">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Donc le jeu conduirait &#xe0; la mort." ID="ID_728907869" CREATED="1326101608963" MODIFIED="1326101621436">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 </node>
 </node>
