@@ -81,7 +81,9 @@
 <icon BUILTIN="flag-green"/>
 </node>
 </node>
-<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1326070177912">
+<node TEXT="hybride ?" ID="ID_1395083916" CREATED="1325770318326" MODIFIED="1326098608440">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="flag-pink"/>
 <node TEXT="on trace au vectoriel" ID="ID_1725860042" CREATED="1325980425898" MODIFIED="1325980483798">
 <icon BUILTIN="flag-green"/>
 </node>
@@ -134,6 +136,9 @@
 </node>
 <node TEXT="le juste milieu semble alors &#xea;tre l&apos;hybride (sous hypoth&#xe8;se 2D)" ID="ID_314553620" CREATED="1326069995304" MODIFIED="1326070126427">
 <icon BUILTIN="flag-green"/>
+<node TEXT="Tu veux dire que la technique hybride ne fonctionne pas sur une vue 3D iso ?" ID="ID_1684913869" CREATED="1326098494966" MODIFIED="1326098626479">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 </node>
 <node TEXT="ces choix auront une grande influence sur la programmation !!!" ID="ID_1883065857" CREATED="1326070168677" MODIFIED="1326070200805">
@@ -269,12 +274,21 @@
 <node TEXT="Miaou" ID="ID_1832251144" CREATED="1325801318759" MODIFIED="1325801320413">
 <node TEXT="j&apos;avais envie de faire des zz capables d&apos;envoyer leur propre bras (t&#xea;te jambe aussi ?)" ID="ID_652133277" CREATED="1325980513268" MODIFIED="1325980555718">
 <icon BUILTIN="flag-green"/>
+<node TEXT="Euh, va donc falloir animer le marcher / ramper / attaque sans bras... ?" ID="ID_914635445" CREATED="1326098254247" MODIFIED="1326098290762">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="zz sacrif&#xe9;, morceaux r&#xe9;cup&#xe9;r&#xe9;s par les autres" ID="ID_522561852" CREATED="1325980539258" MODIFIED="1325980555718">
 <icon BUILTIN="flag-green"/>
+<node TEXT="M&#xea;me reflexion, a moins qu&apos;on puisse facilement coller les sprites des membres suppl&#xe9;mentaires sur le tronc ? Et pour l&apos;animation ?" ID="ID_1980780342" CREATED="1326098294552" MODIFIED="1326098353225">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="animaux, contaminables ? Ressources de viande ?" ID="ID_1038042038" CREATED="1326037184301" MODIFIED="1326037211645">
 <icon BUILTIN="flag-green"/>
+<node TEXT="Ca &#xe7;a me plait effectivement beaucoup. Mais tu partirais donc sur des esp&#xe8;ces uniquement pacifique en journ&#xe9;e ?" ID="ID_1877815391" CREATED="1326098356845" MODIFIED="1326098420841">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 </node>
 <node TEXT="Poulpe" ID="ID_712673440" CREATED="1325771459199" MODIFIED="1325771461036">
@@ -282,7 +296,8 @@
 </node>
 <node TEXT="Ylliasviel" ID="ID_1961005639" CREATED="1325771425710" MODIFIED="1325771429235">
 <node TEXT="est-ce qu&apos;ils peuvent se servir les uns des autres pour monter par dessus un mur ?" ID="ID_898225639" CREATED="1325771429902" MODIFIED="1325771454261"/>
-<node TEXT="Mob volants (corbeaux), nageant ?" ID="ID_1705730899" CREATED="1325780144537" MODIFIED="1325780173703">
+<node TEXT="Mob volants (corbeaux), nageant ?" ID="ID_1705730899" CREATED="1325780144537" MODIFIED="1326098659695">
+<icon BUILTIN="button_cancel"/>
 <node TEXT="je pense que c&apos;est difficile si on vole en perspective iso." ID="ID_803327378" CREATED="1325801344191" MODIFIED="1325801377037">
 <icon BUILTIN="flag-green"/>
 </node>
