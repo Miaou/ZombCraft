@@ -49,16 +49,6 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node TEXT="Ylliasviel" ID="ID_1360919955" CREATED="1325780732309" MODIFIED="1325780737279">
-<node TEXT="Phase d&apos;attaque de la horde : FPS ?" ID="ID_1876268827" CREATED="1325780739188" MODIFIED="1325780814366">
-<node TEXT="En fait, je pensais faire comme MineCraft ou MiniCraft, c&#xe0;d toujours contr&#xf4;ler le perso" ID="ID_1340505011" CREATED="1325800139219" MODIFIED="1325800187779">
-<icon BUILTIN="flag-green"/>
-</node>
-<node TEXT="pas FPS, &#xe7;a imposerait full 3D" ID="ID_1293491361" CREATED="1325800172446" MODIFIED="1325800187778">
-<icon BUILTIN="flag-green"/>
-</node>
-</node>
-</node>
 </node>
 <node TEXT="Graphisme" ID="ID_374824104" CREATED="1325770048878" MODIFIED="1325770054436">
 <node TEXT="Miaou" ID="ID_1656780903" CREATED="1325770055375" MODIFIED="1325770057506">
@@ -451,6 +441,22 @@
 <node TEXT="cheat&#xe9; ? Hors sujet ? pas compatible avec le survival ?" ID="ID_1158265475" CREATED="1326037151509" MODIFIED="1326037221495">
 <icon BUILTIN="flag-green"/>
 </node>
+</node>
+<node TEXT="Ylliasviel" ID="ID_192567807" CREATED="1326098776449" MODIFIED="1326098782586">
+<node TEXT="Utilisation de &quot;livres de sort&quot; &#xe0; usage unique ou &quot;armes enchant&#xe9;es&quot;" ID="ID_736915202" CREATED="1326098784429" MODIFIED="1326098816594">
+<node TEXT="Loot pour les livres / enchantements craftables" ID="ID_667258707" CREATED="1326098863634" MODIFIED="1326098913965">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
+<node TEXT="Sorts appris avec consommation de mana" ID="ID_698818551" CREATED="1326098817658" MODIFIED="1326098831159">
+<node TEXT="R&#xe9;g&#xe9;n&#xe9;ration de mana sur le temps ou par loot ?" ID="ID_254219301" CREATED="1326098929443" MODIFIED="1326098980389">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="J&apos;aime pas le terme &quot;mana&quot; en fait.. on est post-apocalyptique, pas fantasy.." ID="ID_405278168" CREATED="1326098945492" MODIFIED="1326098985333">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
+<node TEXT="Poisons, &quot;arme bact&#xe9;riologique&quot;, &quot;capsules d&apos;antivirus&quot;... c&apos;est comme de la magie non ? :)" ID="ID_926070125" CREATED="1326098832474" MODIFIED="1326099086412"/>
 </node>
 </node>
 <node TEXT="Code, biblioth&#xe8;ques ext&#xe9;rieur" ID="ID_1326991139" CREATED="1325770433910" MODIFIED="1326036960146">
