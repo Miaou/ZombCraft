@@ -129,6 +129,12 @@
 <node TEXT="Tu veux dire que la technique hybride ne fonctionne pas sur une vue 3D iso ?" ID="ID_1684913869" CREATED="1326098494966" MODIFIED="1326098626479">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Si si, je me suis mal exprim&#xe9; : disons que la 3D iso est une pseudo 2D" ID="ID_135432034" CREATED="1326101859873" MODIFIED="1326101959893">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="j&apos;aurais d&#xfb; mettre &quot;(sous hypoth&#xe8;se pas full 3D)&quot;" ID="ID_1773560235" CREATED="1326101939322" MODIFIED="1326101959893">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 </node>
 <node TEXT="ces choix auront une grande influence sur la programmation !!!" ID="ID_1883065857" CREATED="1326070168677" MODIFIED="1326070200805">
@@ -497,6 +503,15 @@
 <icon BUILTIN="flag-pink"/>
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Il semblerait que certaines d&#xe9;cisions se profilent" ID="ID_377792448" CREATED="1326102032636" MODIFIED="1326102170612">
+<icon BUILTIN="flag-green"/>
+<node TEXT="M&#xea;me si dans ma nature je repousse la prise de d&#xe9;cision, pour que le projet avance il faudra en prendre..." ID="ID_1735025530" CREATED="1326102045865" MODIFIED="1326102154550">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Que dites vous de faire une section &quot;d&#xe9;cisions&quot; dans laquelle on mette les d&#xe9;cisions qui se profilent, et un vote final compl&#xe9;mentaire ?" ID="ID_1025785009" CREATED="1326102117633" MODIFIED="1326102154550">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 </node>
 </node>
