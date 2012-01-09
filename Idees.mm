@@ -267,17 +267,29 @@
 <node TEXT="Euh, va donc falloir animer le marcher / ramper / attaque sans bras... ?" ID="ID_914635445" CREATED="1326098254247" MODIFIED="1326098290762">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Ah, j&apos;avais pas pens&#xe9; &#xe0; &#xe7;a..." ID="ID_1557466013" CREATED="1326101710481" MODIFIED="1326101718687">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="zz sacrif&#xe9;, morceaux r&#xe9;cup&#xe9;r&#xe9;s par les autres" ID="ID_522561852" CREATED="1325980539258" MODIFIED="1325980555718">
 <icon BUILTIN="flag-green"/>
 <node TEXT="M&#xea;me reflexion, a moins qu&apos;on puisse facilement coller les sprites des membres suppl&#xe9;mentaires sur le tronc ? Et pour l&apos;animation ?" ID="ID_1980780342" CREATED="1326098294552" MODIFIED="1326098353225">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Re-pareil" ID="ID_1401438629" CREATED="1326101728977" MODIFIED="1326101743828">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="animaux, contaminables ? Ressources de viande ?" ID="ID_1038042038" CREATED="1326037184301" MODIFIED="1326037211645">
 <icon BUILTIN="flag-green"/>
 <node TEXT="Ca &#xe7;a me plait effectivement beaucoup. Mais tu partirais donc sur des esp&#xe8;ces uniquement pacifique en journ&#xe9;e ?" ID="ID_1877815391" CREATED="1326098356845" MODIFIED="1326098420841">
 <icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Non, pas forc&#xe9;ment, mais on peut pas vraiment dire qu&apos;une ch&#xe8;vre soit agressive en soit..." ID="ID_1367563700" CREATED="1326101748793" MODIFIED="1326101772468">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Un ours, certes" ID="ID_430483463" CREATED="1326101773633" MODIFIED="1326101780380">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
 </node>
