@@ -28,6 +28,7 @@
 <node TEXT="du RPG simple &#xe0; la Borderlands (voire plus simple)" ID="ID_1102700480" CREATED="1325628250441" MODIFIED="1325628285031"/>
 <node TEXT="(du level de zz &#xe0; la Borderlands)" ID="ID_83223473" CREATED="1325628257210" MODIFIED="1325628270461"/>
 <node TEXT="du moteur physique pour g&#xe9;rer les collisions, les armes &#xe0; feu, les armes autres, les dommages" ID="ID_1684519105" CREATED="1325629121050" MODIFIED="1325630007455"/>
+<node TEXT="(de la vue &#xe0; la zelda : de &quot;dessus&quot;, enfin presque de dessus quoi)" ID="ID_1002177708" CREATED="1326135683288" MODIFIED="1326135711366"/>
 </node>
 <node TEXT="D&#xe9;bats" POSITION="right" ID="ID_818138499" CREATED="1325768485342" MODIFIED="1325768486571">
 <node TEXT="Networking" ID="ID_1160654014" CREATED="1325770762591" MODIFIED="1325770764996">
@@ -43,7 +44,12 @@
 <node TEXT="2D vs 3D" ID="ID_722806428" CREATED="1325628234369" MODIFIED="1325628241883">
 <node TEXT="Miaou" ID="ID_767081588" CREATED="1325768572471" MODIFIED="1325768576236">
 <node TEXT="2D : vue en coupe (Terraria, Super Meat Boy)" ID="ID_551069156" CREATED="1325768736862" MODIFIED="1326069254452"/>
-<node TEXT="2D : vue de dessus (Zelda NES, The Binding of Isaac)" ID="ID_635971483" CREATED="1325768759935" MODIFIED="1325768949806"/>
+<node TEXT="2D : vue de dessus (Zelda NES, The Binding of Isaac)" ID="ID_635971483" CREATED="1325768759935" MODIFIED="1326136003879">
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_ok"/>
+</node>
 <node TEXT="3D isom&#xe9;trique : vue en biais (age of empires, Sims)" ID="ID_1914183923" CREATED="1325769033343" MODIFIED="1325769660836"/>
 <node TEXT="full 3D" ID="ID_1319299240" CREATED="1325769849407" MODIFIED="1325769859682">
 <icon BUILTIN="button_cancel"/>
