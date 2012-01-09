@@ -487,6 +487,31 @@
 <node TEXT="python 2.7 pour faire tourner cairo" ID="ID_528279676" CREATED="1325770515413" MODIFIED="1325770522012"/>
 <node TEXT="python 3.2 parce que c&apos;est mieux" ID="ID_1083611028" CREATED="1325770524143" MODIFIED="1325770534259"/>
 </node>
+<node TEXT="Poulpe" ID="ID_872726941" CREATED="1326102085513" MODIFIED="1326102087806">
+<node TEXT="Pourquoi pas en flash, pour le diffuser ?" ID="ID_994858196" CREATED="1326102088177" MODIFIED="1326102107382">
+<node TEXT="Certes," ID="ID_248727698" CREATED="1326102097754" MODIFIED="1326103066005">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="quelqu&apos;un sait coder en Flash ? ;)" ID="ID_1553955885" CREATED="1326102602938" MODIFIED="1326103066006">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="quelqu&apos;un sait organiser un projet en flash ?" ID="ID_1794788255" CREATED="1326102615737" MODIFIED="1326103066006">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="oui, je suis d&apos;accord, mais je pense qu&apos;on pourra faire un portage si notre concept donne un truc sympa." ID="ID_1045106817" CREATED="1326102626666" MODIFIED="1326103066006">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="A priori, beaucoup d&apos;obstacles : la gestion du r&#xe9;seau, la gestion du son, la gestion de &quot;beaucoup&quot; de fichiers" ID="ID_383198677" CREATED="1326102648209" MODIFIED="1326103066005">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="(je parle d&apos;obstacles parce que je sais pas faire tout &#xe7;a)" ID="ID_1416050862" CREATED="1326102996401" MODIFIED="1326103066005">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="voici mon unique pojet Flash : http://perso.crans.org/~brameret/Robotino/Didactique/Rob.html" ID="ID_1271452109" CREATED="1326103009057" MODIFIED="1326103066005" LINK="http://perso.crans.org/~brameret/Robotino/Didactique/Rob.html">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Il faudra trouver un moyen de prendre des d&#xe9;cisions" POSITION="right" ID="ID_889824046" CREATED="1325802155687" MODIFIED="1325802166772">
