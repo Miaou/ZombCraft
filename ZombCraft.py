@@ -8,13 +8,17 @@
 import pygame
 import time # time.sleep() et time.time() (chrono moyen)
 from pygame.locals import *
+import random
 
 
 WIDTH,HEIGHT = 512,512
 
 
 # Inits de pygame. Ces vars restent globales pour le moment
+pygame.mixer.pre_init(frequency=22050, size=-16, channels=2, buffer=512)
 pygame.init()
+pygame.mixer.set_num_channels(16)
+#print()
 window = pygame.display.set_mode((WIDTH, HEIGHT))#,pygame.FULLSCREEN)
 #screen = pygame.display.get_surface()
 
@@ -22,10 +26,16 @@ window = pygame.display.set_mode((WIDTH, HEIGHT))#,pygame.FULLSCREEN)
 # Autres vars globales
 perso = [0.,0.] # Le personnage est réduit à une position x,y
 tileFond = pygame.image.load('res/Grass.png')
-tilePerso = pygame.image.load('res/Dude.png')
-sonPerso = pygame.mixer.Sound('res/Retro_jump3.wav')
+lTilePerso = [pygame.image.load('res/Dude0.png'),pygame.image.load('res/Dude1.png')]
+iTilePerso = 0
+sonJump = pygame.mixer.Sound('res/Retro_jump3.wav')
+lSonPerso = [pygame.mixer.Sound('res/steprunr.wav'),
+             pygame.mixer.Sound('res/steprun2.wav'),
+             pygame.mixer.Sound('res/steprun3.wav'),
+             pygame.mixer.Sound('res/stepwlk2.wav')]
 pygame.mixer.music.load('res/hell.mp3')
-pygame.mixer.music.play()
+pygame.mixer.music.set_volume(0.5)
+pygame.mixer.music.play(-1)
 
 
 # transforme x,y du jeu centré sur xC, yC en xE,yE écran
@@ -43,7 +53,7 @@ def Draw():
         for j in range(10):
             window.blit(tileFond,transformGeom(X,Y,20*(5-i),20*(5-j)))
     # On centre sur le perso
-    window.blit(tilePerso,transformGeom(X,Y,X+9,Y+25))
+    window.blit(lTilePerso[iTilePerso],transformGeom(X,Y,X+9,Y+25))
     # On le dessine.
     pygame.display.flip()
 
@@ -70,6 +80,8 @@ while not bEnd:
                 ctrlV = 1
             elif event.key == K_DOWN:
                 ctrlV = -1
+            elif event.key == K_SPACE:
+                sonJump.play()
         elif event.type == KEYUP:
             if event.key in (K_LEFT,K_RIGHT):
                 ctrlH = 0
@@ -83,9 +95,11 @@ while not bEnd:
     perso[0] += dx
     perso[1] += dy
     D += (dx**2+dy**2)**.5
-    if D > 5:
-        sonPerso.play()
-        D -= 5
+    if D > 10:
+        lSonPerso[random.randint(0,len(lSonPerso)-1)].play()
+        D -= 10
+        iTilePerso += 1
+        iTilePerso %= 2
     t0 = t1
     # 3) On dessine
     Draw()
