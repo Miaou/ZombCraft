@@ -545,5 +545,48 @@
 </node>
 </node>
 </node>
+<node TEXT="Apr&#xe8;s les id&#xe9;es, il faut transformer en code" POSITION="right" ID="ID_368116256" CREATED="1326664350097" MODIFIED="1326664368087">
+<node TEXT="Miaou" ID="ID_1575836106" CREATED="1326664370593" MODIFIED="1326664372398">
+<node TEXT="ok, cr&#xe9;ation d&apos;un premier projet" ID="ID_1965414275" CREATED="1326664395033" MODIFIED="1326664402174"/>
+<node TEXT="dans la suite de l&apos;id&#xe9;e de Poulpe" ID="ID_705752845" CREATED="1326664402377" MODIFIED="1326664410118"/>
+<node TEXT="c&apos;est une d&#xe9;mo" ID="ID_672218881" CREATED="1326664414664" MODIFIED="1326664417022"/>
+<node TEXT="Maintenant, il faut partir sur une base plus propre, et je pense que pour &#xe7;a, il faut se mettre &#xe0; l&apos;UML..." ID="ID_1455589183" CREATED="1326664417329" MODIFIED="1326664445630"/>
+<node TEXT="Je cr&#xe9;e donc un UML avec un soft trouv&#xe9; au pif (ArgoUML) en attendant de savoir si &#xe7;a peut servir" ID="ID_605264408" CREATED="1326664448392" MODIFIED="1326664491694"/>
+<node TEXT="(pour voir)" ID="ID_1254378494" CREATED="1326664493393" MODIFIED="1326664500029"/>
+<node TEXT="Greg, j&apos;attends ton avis sur des bons &#xe9;diteur UML, tu m&apos;as dis que t&apos;en connais, je me lance pas trop dans le diagramme, mais je voudrais voir si on peut en faire quelque chose." ID="ID_169196730" CREATED="1326664500272" MODIFIED="1326664535477"/>
+<node TEXT="je l&apos;ai appel&#xe9; assez b&#xea;tement code (des suggestions &#xe0; ce sujet ?)" ID="ID_494236782" CREATED="1326664590481" MODIFIED="1326664610167" LINK="./Code.uml"/>
+<node TEXT="(ce qu&apos;on peut d&#xe9;j&#xe0; trouver nul avec cet &#xe9;diteur c&apos;est qu&apos;il n&apos;y a pas &quot;annuler&quot; ! LOL, on est en 2012 quand m&#xea;me !!!)" ID="ID_753416265" CREATED="1326664938744" MODIFIED="1326664976574"/>
+<node TEXT="(et aussi : quand on fait des associations, qu&apos;on se fait chier &#xe0; donner des nombres et des noms, pourquoi on doit encore &#xe0; la main sp&#xe9;cifier les attributs de cette classe ? Par exemple, le moteur graphique agr&#xe8;ge des tiles. Pourquoi il n&apos;est pas dit automatiquement que le moteur graphique a un attribut &quot;tile : Tile&quot; ?)" ID="ID_1453797261" CREATED="1326665855745" MODIFIED="1326665968605"/>
+<node TEXT="o&#xf9; seront &#xe9;crits les d&#xe9;bats correspondants au code ? Dans la section code. Mais elle risque de devenir trop grosse" ID="ID_1354233183" CREATED="1326665240473" MODIFIED="1326665282919"/>
+<node TEXT="Je pense que ce fichier (Idees.mm) pourrait rester comme &#xe7;a, ou devenir &quot;Specif.mm&quot;" ID="ID_1726475490" CREATED="1326665283353" MODIFIED="1326665309582"/>
+<node TEXT="puis on discuterait du code dans un UML.mm ou Code.mm ou autre" ID="ID_1446254028" CREATED="1326665309817" MODIFIED="1326665327566"/>
+<node TEXT="Premi&#xe8;re discussion autour du mod&#xe8;le UML" ID="ID_1200740554" CREATED="1326666658345" MODIFIED="1326666666342">
+<node TEXT="Je pense qu&apos;en gros, il y a d&#xe9;j&#xe0; les gros blocs de base." ID="ID_891304439" CREATED="1326666667609" MODIFIED="1326667345779">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="J&apos;ai h&#xe9;sit&#xe9; &#xe0; mettre des liens partout entre les personnages et les sons et graphics par exemple" ID="ID_1189780837" CREATED="1326666687816" MODIFIED="1326667345783">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Mais je pense que c&apos;est peut-&#xea;tre &#xe0; ZombCraft de faire &#xe7;a." ID="ID_938137484" CREATED="1326666716465" MODIFIED="1326667345783">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="C&apos;est dans un autre type de diagramme qu&apos;on dit tout &#xe7;a ?" ID="ID_460881696" CREATED="1326666733465" MODIFIED="1326667345783">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="(parce qu&apos;en fait, c&apos;est le jeu lui m&#xea;me qui g&#xe8;re ces int&#xe9;ractions &#xe0; mon avis)" ID="ID_1961044045" CREATED="1326666746073" MODIFIED="1326667345782">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="(sinon, faut des esp&#xe8;ces de fl&#xe8;ches traversantes : Zombcraft attribue une image &#xe0; un perso en fonction de son type)" ID="ID_1514273561" CREATED="1326666779641" MODIFIED="1326667345780">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="On pourra ensuite descendre un peu dans le d&#xe9;tail, comme avec l&apos;inventaire par exemple..." ID="ID_1475510220" CREATED="1326666817089" MODIFIED="1326667345780">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
+</node>
+<node TEXT="Poulpe" ID="ID_954391270" CREATED="1326664377129" MODIFIED="1326664378670">
+<node TEXT="Il faut commencer &#xe0; coder, pour voir si c&apos;est aussi simple" ID="ID_785385632" CREATED="1326664379344" MODIFIED="1326664392742"/>
+</node>
+</node>
 </node>
 </map>
