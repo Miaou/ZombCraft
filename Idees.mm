@@ -585,7 +585,11 @@
 </node>
 </node>
 <node TEXT="Poulpe" ID="ID_954391270" CREATED="1326664377129" MODIFIED="1326664378670">
-<node TEXT="Il faut commencer &#xe0; coder, pour voir si c&apos;est aussi simple" ID="ID_785385632" CREATED="1326664379344" MODIFIED="1326664392742"/>
+<node TEXT="Il faut commencer &#xe0; coder, pour voir si c&apos;est aussi simple" ID="ID_785385632" CREATED="1326664379344" MODIFIED="1326664392742">
+<node TEXT="Fait, et &#xe7;a marche pas mal !&#xa;(et rapidement (1h40 le proto, images comprises))" ID="ID_314754113" CREATED="1326803817034" MODIFIED="1326803844620">
+<icon BUILTIN="flag-green"/>
+</node>
+</node>
 </node>
 </node>
 </node>
