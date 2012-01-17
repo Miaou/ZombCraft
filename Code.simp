@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="4.97">
+  <meta>
+    <name>Code</name>
+    <authors>Miaou, Wiskass, Ylliasviel</authors>
+    <description />
+  </meta>
+  <management>
+    <persons />
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="rect" name="rect" description="" />
+      <type id="string" name="string" description="" />
+      <type id="strng" name="strng" description="" />
+      <type id="npcEnum" name="npcEnum" description="" />
+      <type id="int" name="int" description="" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="di781999884860257557" cid="C001" type="class" name="ZombCraft" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations>
+        <operation id="" name="main" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters />
+          <stereotypes />
+          <documentation />
+        </operation>
+      </operations>
+      <template-parameters />
+    </item>
+    <item id="di269523939811522102" cid="C002" type="class" name="Graphics Engine" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di140427835332287293" cid="C003" type="class" name="Tile" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="name" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+        <attribute id="" name="size" type="rect" type-id="rect" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations>
+        <operation id="" name="newOperation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters />
+          <stereotypes />
+          <documentation />
+        </operation>
+      </operations>
+      <template-parameters />
+    </item>
+    <item id="di801131236304447085" cid="REL002" type="relationship" name="Loads &gt;" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di140427835332287293" to="di269523939811522102">
+        <start-role id="" name="tile" multiplicity="*" navigability="" association-type="association" visibility="public" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="public" />
+      </relation>
+    </item>
+    <item id="di997988309151234677" cid="REL003" type="relationship" name="Initialize graphics wih" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di269523939811522102" to="di781999884860257557">
+        <start-role id="" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+      </relation>
+    </item>
+    <item id="di956026647677876746" cid="C004" type="class" name="Map" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di122180722687578948" cid="C005" type="class" name="Animated Character" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di572224075517891977" cid="REL004" type="relationship" name="Handles landscape" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di956026647677876746" to="di781999884860257557">
+        <start-role id="" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+      </relation>
+    </item>
+    <item id="di386332733974364964" cid="REL005" type="relationship" name="Handles lives of" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di122180722687578948" to="di781999884860257557">
+        <start-role id="" name="dude" multiplicity="1..*" navigability="" association-type="association" visibility="public" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="composition" visibility="public" />
+      </relation>
+    </item>
+    <item id="di654210751770988054" cid="C006" type="class" name="Sounds Engine" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di123705437103360770" cid="REL006" type="relationship" name="&lt; Initialize Sounds with" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di654210751770988054" to="di781999884860257557">
+        <start-role id="" name="name ?" multiplicity="1" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+      </relation>
+    </item>
+    <item id="di986933093544322308" cid="C007" type="class" name="Sample" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="name" type="string" type-id="string" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di408746584207138108" cid="REL007" type="relationship" name="&lt; Loads" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di986933093544322308" to="di654210751770988054">
+        <start-role id="" name="sample" multiplicity="0..*" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+      </relation>
+    </item>
+    <item id="di214250638619985988" cid="C008" type="class" name="Music" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="name" type="strng" type-id="strng" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di574386488806948703" cid="REL008" type="relationship" name="&lt; Loads" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <relation from="di214250638619985988" to="di654210751770988054">
+        <start-role id="" name="+music" multiplicity="0..*" navigability="" association-type="association" visibility="private" />
+        <end-role id="" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+      </relation>
+    </item>
+    <item id="di553028540619377292" cid="C009" type="class" name="NPC" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="type" type="npcEnum" type-id="npcEnum" visibility="public" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di967966102984270298" cid="GNR001" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di227774464177929222" cid="C010" type="class" name="Players" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="" name="lifeAmount" type="int" type-id="int" visibility="private" abstract="false" virtual="false" default-value="">
+          <stereotypes />
+          <documentation />
+        </attribute>
+      </attributes>
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di320562511850148361" cid="GNR004" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p536035330382412026" name="Model 1" type="" namespace="">
+      <documentation />
+      <sub-models />
+      <diagram type="uml-class" id="p934205858819596599" name="ClassDiagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>01/17/2012 15:03:01</creation-date>
+          <change-date>01/17/2012 15:21:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <documentation />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di781999884860257557" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="314" ay="109" awidth="150" aheight="103" x="314" y="109" width="0" height="103" />
+            <class />
+          </item>
+          <item id="di269523939811522102" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="831" ay="420" awidth="150" aheight="74" x="831" y="420" width="0" height="74" />
+            <class />
+          </item>
+          <item id="di140427835332287293" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="1182" ay="405" awidth="150" aheight="105" x="1182" y="405" width="0" height="105" />
+            <class />
+          </item>
+          <item id="di801131236304447085" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="5,-31" x1="1182" y1="458" x2="981" y2="457">
+              <points>
+                <point x="1182" y="458" />
+                <point x="981" y="457" />
+              </points>
+            </layout>
+            <relation from="di140427835332287293" to="di269523939811522102" />
+            <role-positions start-role="24.99999,15" end-role="25,15" start-multiplicity="24.9999,-15" end-multiplicity="25.00002,-15" />
+          </item>
+          <item id="di997988309151234677" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="904" y1="420" x2="464" y2="159">
+              <points>
+                <point x="904" y="420" />
+                <point x="890" y="150" />
+                <point x="464" y="159" />
+              </points>
+            </layout>
+            <relation from="di269523939811522102" to="di781999884860257557" />
+            <role-positions start-role="25,14.99998" end-role="25,15" start-multiplicity="25,-14.99998" end-multiplicity="25,-15" />
+          </item>
+          <item id="di956026647677876746" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="524" ay="440" awidth="150" aheight="86" x="524" y="440" width="0" height="86" />
+            <class />
+          </item>
+          <item id="di122180722687578948" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="92" ay="423" awidth="150" aheight="78" x="92" y="423" width="0" height="78" />
+            <class />
+          </item>
+          <item id="di572224075517891977" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="600" y1="440" x2="464" y2="187">
+              <points>
+                <point x="600" y="440" />
+                <point x="605" y="237" />
+                <point x="464" y="187" />
+              </points>
+            </layout>
+            <relation from="di956026647677876746" to="di781999884860257557" />
+            <role-positions start-role="25.00002,14.99997" end-role="25,15" start-multiplicity="25.00001,-14.99997" end-multiplicity="25,-15" />
+          </item>
+          <item id="di386332733974364964" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="-10,-63" x1="167" y1="423" x2="314" y2="176">
+              <points>
+                <point x="167" y="423" />
+                <point x="164" y="209" />
+                <point x="314" y="176" />
+              </points>
+            </layout>
+            <relation from="di122180722687578948" to="di781999884860257557" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di654210751770988054" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="-238" ay="175" awidth="150" aheight="86" x="-238" y="175" width="0" height="86" />
+            <class />
+          </item>
+          <item id="di123705437103360770" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="-94" y1="175" x2="314" y2="143">
+              <points>
+                <point x="-94" y="175" />
+                <point x="51" y="85" />
+                <point x="314" y="143" />
+              </points>
+            </layout>
+            <relation from="di654210751770988054" to="di781999884860257557" />
+            <role-positions start-role="24.99999,15.00001" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25.00002,-15" />
+          </item>
+          <item id="di986933093544322308" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="-541" ay="95" awidth="150" aheight="66" x="-541" y="95" width="0" height="66" />
+            <class />
+          </item>
+          <item id="di408746584207138108" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="-391" y1="150" x2="-238" y2="196">
+              <points>
+                <point x="-391" y="150" />
+                <point x="-238" y="196" />
+              </points>
+            </layout>
+            <relation from="di986933093544322308" to="di654210751770988054" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25.00002,-15.00002" end-multiplicity="25.00002,-15.00002" />
+          </item>
+          <item id="di214250638619985988" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="-531" ay="345" awidth="150" aheight="75" x="-531" y="345" width="0" height="75" />
+            <class />
+          </item>
+          <item id="di574386488806948703" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="-390" y1="345" x2="-238" y2="260">
+              <points>
+                <point x="-390" y="345" />
+                <point x="-238" y="260" />
+              </points>
+            </layout>
+            <relation from="di214250638619985988" to="di654210751770988054" />
+            <role-positions start-role="25,15.00001" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di553028540619377292" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="-147" ay="643" awidth="150" aheight="73" x="-147" y="643" width="0" height="73" />
+            <class />
+          </item>
+          <item id="di967966102984270298" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="-68" y1="643" x2="92" y2="481">
+              <points>
+                <point x="-68" y="643" />
+                <point x="-55" y="519" />
+                <point x="92" y="481" />
+              </points>
+            </layout>
+            <relation from="di553028540619377292" to="di122180722687578948" />
+          </item>
+          <item id="di227774464177929222" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="316" ay="651" awidth="150" aheight="71" x="316" y="651" width="0" height="71" />
+            <class />
+          </item>
+          <item id="di320562511850148361" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="383" y1="651" x2="242" y2="484">
+              <points>
+                <point x="383" y="651" />
+                <point x="353" y="516" />
+                <point x="242" y="484" />
+              </points>
+            </layout>
+            <relation from="di227774464177929222" to="di122180722687578948" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

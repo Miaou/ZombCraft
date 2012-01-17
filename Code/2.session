@@ -1,0 +1,13 @@
+window_sizes 1440 878 232 1202 756 46
+diagrams
+  active  classdiagram_ref 128002 // Général
+    1202 756 100 0 0 0
+end
+show_stereotypes
+selected classrelation_ref 128258 // tile (Loads >)
+open
+  class_ref 128002 // ZombCraft
+  class_ref 128130 // GraphicsEngine
+  class_ref 128258 // Tile
+end
+end

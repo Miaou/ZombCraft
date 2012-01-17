@@ -547,16 +547,82 @@
 </node>
 <node TEXT="Apr&#xe8;s les id&#xe9;es, il faut transformer en code" POSITION="right" ID="ID_368116256" CREATED="1326664350097" MODIFIED="1326664368087">
 <node TEXT="Miaou" ID="ID_1575836106" CREATED="1326664370593" MODIFIED="1326664372398">
-<node TEXT="ok, cr&#xe9;ation d&apos;un premier projet" ID="ID_1965414275" CREATED="1326664395033" MODIFIED="1326664402174"/>
-<node TEXT="dans la suite de l&apos;id&#xe9;e de Poulpe" ID="ID_705752845" CREATED="1326664402377" MODIFIED="1326664410118"/>
-<node TEXT="c&apos;est une d&#xe9;mo" ID="ID_672218881" CREATED="1326664414664" MODIFIED="1326664417022"/>
+<node TEXT="La premi&#xe8;re d&#xe9;mo &#xe9;tait vraiment une d&#xe9;mo. On voit que c&apos;est sale." ID="ID_1563622318" CREATED="1326803904346" MODIFIED="1326803918054"/>
 <node TEXT="Maintenant, il faut partir sur une base plus propre, et je pense que pour &#xe7;a, il faut se mettre &#xe0; l&apos;UML..." ID="ID_1455589183" CREATED="1326664417329" MODIFIED="1326664445630"/>
-<node TEXT="Je cr&#xe9;e donc un UML avec un soft trouv&#xe9; au pif (ArgoUML) en attendant de savoir si &#xe7;a peut servir" ID="ID_605264408" CREATED="1326664448392" MODIFIED="1326664491694"/>
-<node TEXT="(pour voir)" ID="ID_1254378494" CREATED="1326664493393" MODIFIED="1326664500029"/>
-<node TEXT="Greg, j&apos;attends ton avis sur des bons &#xe9;diteur UML, tu m&apos;as dis que t&apos;en connais, je me lance pas trop dans le diagramme, mais je voudrais voir si on peut en faire quelque chose." ID="ID_169196730" CREATED="1326664500272" MODIFIED="1326664535477"/>
-<node TEXT="je l&apos;ai appel&#xe9; assez b&#xea;tement code (des suggestions &#xe0; ce sujet ?)" ID="ID_494236782" CREATED="1326664590481" MODIFIED="1326664610167" LINK="./Code.uml"/>
-<node TEXT="(ce qu&apos;on peut d&#xe9;j&#xe0; trouver nul avec cet &#xe9;diteur c&apos;est qu&apos;il n&apos;y a pas &quot;annuler&quot; ! LOL, on est en 2012 quand m&#xea;me !!!)" ID="ID_753416265" CREATED="1326664938744" MODIFIED="1326664976574"/>
-<node TEXT="(et aussi : quand on fait des associations, qu&apos;on se fait chier &#xe0; donner des nombres et des noms, pourquoi on doit encore &#xe0; la main sp&#xe9;cifier les attributs de cette classe ? Par exemple, le moteur graphique agr&#xe8;ge des tiles. Pourquoi il n&apos;est pas dit automatiquement que le moteur graphique a un attribut &quot;tile : Tile&quot; ?)" ID="ID_1453797261" CREATED="1326665855745" MODIFIED="1326665968605"/>
+<node TEXT="Premi&#xe8;re discussion et TESTS pour trouver un &#xe9;diteur UML libre (et en GPL) et c&apos;est la loose" ID="ID_169196730" CREATED="1326664500272" MODIFIED="1326810369025">
+<node TEXT="Je test ici les diff&#xe9;rents outils avec screenshots &#xe0; l&apos;appui" ID="ID_120797683" CREATED="1326804665521" MODIFIED="1326809550383">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="ArgoUML" ID="ID_595630493" CREATED="1326803980984" MODIFIED="1326809550382">
+<icon BUILTIN="flag-green"/>
+<node TEXT="UML 1.4, lol" ID="ID_152127596" CREATED="1326804038322" MODIFIED="1326804045982"/>
+<node TEXT="pas beau" ID="ID_1954131134" CREATED="1326804030850" MODIFIED="1326804036678"/>
+<node TEXT="y&apos;a pas &quot;annuler&quot; dans le menu &#xe9;dition. LOL" ID="ID_1416676526" CREATED="1326804882411" MODIFIED="1326804908510"/>
+<node TEXT="bizarre pour les types de base (il ne connait pas le type &quot;string&quot; par exemple)" ID="ID_773611227" CREATED="1326804065042" MODIFIED="1326804496391"/>
+<node TEXT="gratuit GPL" ID="ID_120927818" CREATED="1326804499626" MODIFIED="1326804504669"/>
+<node TEXT="image" ID="ID_1258520457" CREATED="1326804798954" MODIFIED="1326804807360" LINK="./ArgoUML-scrshot.png"/>
+<node TEXT="fichier source" ID="ID_266198466" CREATED="1326804848106" MODIFIED="1326804855870" LINK="./Code.uml"/>
+</node>
+<node TEXT="Visual Paradigm" ID="ID_1705135205" CREATED="1326804505913" MODIFIED="1326809550382">
+<icon BUILTIN="flag-green"/>
+<node TEXT="license &quot;Community Edition&quot;, qui est &quot;free for non commercial usage&quot;" ID="ID_951193916" CREATED="1326804556786" MODIFIED="1326804846764"/>
+<node TEXT="gros et beau (Visual Studio like)" ID="ID_1689902154" CREATED="1326804578969" MODIFIED="1326804589590"/>
+<node TEXT="UML 2" ID="ID_337800084" CREATED="1326804591050" MODIFIED="1326804593558"/>
+<node TEXT="un peu usine &#xe0; gaz (exces inverse)" ID="ID_807243159" CREATED="1326805792178" MODIFIED="1326805805055"/>
+<node TEXT="un type de variable est un type, on peut cr&#xe9;er et m&#xea;me documenter des nouveaux types..." ID="ID_1626694856" CREATED="1326805805266" MODIFIED="1326805830495"/>
+<node TEXT="on peut tout documenter. C&apos;est gros !" ID="ID_1138559418" CREATED="1326805833130" MODIFIED="1326805841334"/>
+<node TEXT="c&apos;est pas forc&#xe9;ment mieux lisible" ID="ID_973796948" CREATED="1326806410130" MODIFIED="1326806417694"/>
+<node TEXT="l&apos;indication des multiplicit&#xe9;s est chelou !!!" ID="ID_1771198889" CREATED="1326806417946" MODIFIED="1326806428830"/>
+<node TEXT="beaucoup se passe en bo&#xee;te de dialogue (donner un type &#xe0; un attribut peut se faire dans une sous fen&#xea;tre)" ID="ID_313002049" CREATED="1326807010336" MODIFIED="1326807045158"/>
+<node TEXT="image" ID="ID_1499791507" CREATED="1326806363457" MODIFIED="1326806370990" LINK="./VisualParadigm-scrshot.png"/>
+<node TEXT="fichier source" ID="ID_852602312" CREATED="1326806376522" MODIFIED="1326806401166" LINK="./Code.vpp"/>
+</node>
+<node TEXT="BoUML" ID="ID_1148132760" CREATED="1326804510826" MODIFIED="1326809550382">
+<icon BUILTIN="flag-green"/>
+<node TEXT="n&apos;est plus maintenu (g&#xe9;guerre avec Wikip&#xe9;dia pour une sombre histoire de logo) ni t&#xe9;l&#xe9;chargeable, mais j&apos;ai la derni&#xe8;re version)" ID="ID_1675843093" CREATED="1326804514841" MODIFIED="1326804547631"/>
+<node TEXT="gratuit GPL" ID="ID_1691538363" CREATED="1326804694466" MODIFIED="1326804698462"/>
+<node TEXT="UML 2" ID="ID_496666244" CREATED="1326804698689" MODIFIED="1326804700534"/>
+<node TEXT="pas beau" ID="ID_1218497638" CREATED="1326807139530" MODIFIED="1326807141422"/>
+<node TEXT="g&#xe9;n&#xe8;re du code !!! Peut-&#xea;tre trop m&#xea;me..." ID="ID_614649532" CREATED="1326807519817" MODIFIED="1326807531302"/>
+<node TEXT="&#xe9;crit avec Qt (je suis pas fan non plus)" ID="ID_1397872632" CREATED="1326806544346" MODIFIED="1326806787111"/>
+<node TEXT="j&apos;ai une fen&#xea;tre qui appara&#xee;t toujours en bordure d&apos;&#xe9;cran, faut tout le temps la ramener pour pouvoir lire" ID="ID_1816669832" CREATED="1326806787906" MODIFIED="1326806852286"/>
+<node TEXT="pas d&apos;espace dans les noms de classe. Bon c&apos;est vrai qu&apos;en Python &#xe7;a n&apos;a pas trop de sens non plus..." ID="ID_1228299016" CREATED="1326806852913" MODIFIED="1326806884078"/>
+<node TEXT="n&apos;affiche pas les types de var sur le diagr" ID="ID_766432749" CREATED="1326806987362" MODIFIED="1326806997070"/>
+<node TEXT="tout se passe en bo&#xee;te de dialogue (hors &#xe9;cran...)" ID="ID_720640950" CREATED="1326806997530" MODIFIED="1326807058670"/>
+<node TEXT="on est limit&#xe9; &#xe0; une feuille pour poser le diagramme (bon, le A0 laisse de la place)" ID="ID_903887548" CREATED="1326807116858" MODIFIED="1326807134519"/>
+<node TEXT="difficile de faire des traits droits, donc encore moins beau" ID="ID_1196676510" CREATED="1326807314786" MODIFIED="1326807325030"/>
+<node TEXT="certains &#xe9;l&#xe9;ments qu&apos;on peut pas supprimer ! (ou qui restent apr&#xe8;s)" ID="ID_1484876642" CREATED="1326807489769" MODIFIED="1326807517879"/>
+<node TEXT="je mets toujours &#xe0; l&apos;envers pour la cr&#xe9;ation des agr&#xe9;gations (les multiplicit&#xe9;s dans le mauvais sens)" ID="ID_1516487234" CREATED="1326808356184" MODIFIED="1326808389135"/>
+<node TEXT="&#xe7;a sent le truc de bourrin et l&apos;&#xe9;go du type qui l&apos;a fait" ID="ID_1953546040" CREATED="1326808389410" MODIFIED="1326808404870"/>
+<node TEXT="j&apos;ai pas finit, c&apos;est p&#xe9;nible de recopier..." ID="ID_282131120" CREATED="1326808453778" MODIFIED="1326808468070"/>
+<node TEXT="et je crois qu&apos;il me saoule" ID="ID_1627110604" CREATED="1326808934882" MODIFIED="1326808940631"/>
+<node TEXT="image" ID="ID_1177078007" CREATED="1326808451802" MODIFIED="1326808481279" LINK="./BoUML-scrshot.png"/>
+<node TEXT="fichier source : lol, c&apos;est un dossier" ID="ID_233161347" CREATED="1326808482537" MODIFIED="1326808495038" LINK="./Code"/>
+</node>
+<node TEXT="Entreprise Architect (aka Sparx)" ID="ID_692758934" CREATED="1326807977922" MODIFIED="1326809550382">
+<icon BUILTIN="flag-green"/>
+<node TEXT="payant, pas test&#xe9; !" ID="ID_138244000" CREATED="1326807986434" MODIFIED="1326807991174"/>
+</node>
+<node TEXT="Software Ideas Modeler" ID="ID_805779783" CREATED="1326808070970" MODIFIED="1326809550381">
+<icon BUILTIN="flag-green"/>
+<node TEXT="free for non commercial use" ID="ID_1815918612" CREATED="1326808236498" MODIFIED="1326808242021"/>
+<node TEXT="UML 2" ID="ID_1281556440" CREATED="1326808269601" MODIFIED="1326808271607"/>
+<node TEXT="toutes les attentes dans celui l&#xe0; ! Sur le papier, tout bien" ID="ID_1446674960" CREATED="1326809482379" MODIFIED="1326809503958"/>
+<node TEXT="pas &#xe9;crit en java" ID="ID_642469561" CREATED="1326809505722" MODIFIED="1326809509455"/>
+<node TEXT="g&#xe9;n&#xe8;re du Python (pas test&#xe9;, moins flexible que BoUML)" ID="ID_1145191557" CREATED="1326809368282" MODIFIED="1326809480513"/>
+<node TEXT="ressemble &#xe0; ArgoUML dans l&apos;&#xe9;dition" ID="ID_1880351686" CREATED="1326809372442" MODIFIED="1326809382870"/>
+<node TEXT="gestion &quot;bizarre&quot; de l&apos;affichage des multiplicit&#xe9;" ID="ID_1045609552" CREATED="1326809383090" MODIFIED="1326809403999"/>
+<node TEXT="(&#xe7;a change avec chaque &#xe9;diteur !)" ID="ID_1683206776" CREATED="1326809404249" MODIFIED="1326809413127"/>
+<node TEXT="affiche assez d&apos;infos" ID="ID_931734417" CREATED="1326809417354" MODIFIED="1326809420846"/>
+<node TEXT="plut&#xf4;t agr&#xe9;able (sans dire beau)" ID="ID_947109246" CREATED="1326809421081" MODIFIED="1326809429664"/>
+<node TEXT="difficile de faire des traits droits" ID="ID_470986036" CREATED="1326809582426" MODIFIED="1326809588231"/>
+<node TEXT="assez rapide &#xe0; l&apos;utilisation" ID="ID_1484768090" CREATED="1326809676506" MODIFIED="1326809682550"/>
+<node TEXT="moins rapide pour aligner" ID="ID_31933401" CREATED="1326810096842" MODIFIED="1326810100750"/>
+<node TEXT="image (d&#xe9;zomm&#xe9;e, contrairement aux autres)" ID="ID_1677480256" CREATED="1326810286626" MODIFIED="1326810310446" LINK="./IdeasModeler-scrshot.png"/>
+<node TEXT="source" ID="ID_1601736473" CREATED="1326810311178" MODIFIED="1326810318303" LINK="./Code.simp"/>
+</node>
+<node TEXT="autres solutions (&#xe0; remplir)&#xa;Peut-&#xea;tre &#xe0; trovuer du c&#xf4;t&#xe9; d&apos;outils Eclipse" ID="ID_1189190524" CREATED="1326809513122" MODIFIED="1326809537103"/>
+</node>
 <node TEXT="o&#xf9; seront &#xe9;crits les d&#xe9;bats correspondants au code ? Dans la section code. Mais elle risque de devenir trop grosse" ID="ID_1354233183" CREATED="1326665240473" MODIFIED="1326665282919"/>
 <node TEXT="Je pense que ce fichier (Idees.mm) pourrait rester comme &#xe7;a, ou devenir &quot;Specif.mm&quot;" ID="ID_1726475490" CREATED="1326665283353" MODIFIED="1326665309582"/>
 <node TEXT="puis on discuterait du code dans un UML.mm ou Code.mm ou autre" ID="ID_1446254028" CREATED="1326665309817" MODIFIED="1326665327566"/>

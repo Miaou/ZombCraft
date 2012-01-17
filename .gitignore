@@ -1,3 +1,6 @@
 # Fichiers backup de FreePlane (perso, je trouve ça chiant)
 *.backup/*
+# Fichiers backup ArgoUML
 *.uml~
+# Fichiers backup Visual Paradigm
+*.vpp~*
