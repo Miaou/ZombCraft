@@ -540,8 +540,10 @@
 <node TEXT="M&#xea;me si dans ma nature je repousse la prise de d&#xe9;cision, pour que le projet avance il faudra en prendre..." ID="ID_1735025530" CREATED="1326102045865" MODIFIED="1326102154550">
 <icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="Que dites vous de faire une section &quot;d&#xe9;cisions&quot; dans laquelle on mette les d&#xe9;cisions qui se profilent, et un vote final compl&#xe9;mentaire ?" ID="ID_1025785009" CREATED="1326102117633" MODIFIED="1326102154550">
+<node TEXT="Que dites vous de faire une section &quot;d&#xe9;cisions&quot; dans laquelle on mette les d&#xe9;cisions qui se profilent, et un vote final compl&#xe9;mentaire ?" ID="ID_1025785009" CREATED="1326102117633" MODIFIED="1326876009340">
 <icon BUILTIN="flag-green"/>
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="flag-pink"/>
 </node>
 </node>
 </node>
@@ -622,6 +624,9 @@
 <node TEXT="source" ID="ID_1601736473" CREATED="1326810311178" MODIFIED="1326810318303" LINK="./Code.simp"/>
 </node>
 <node TEXT="autres solutions (&#xe0; remplir)&#xa;Peut-&#xea;tre &#xe0; trovuer du c&#xf4;t&#xe9; d&apos;outils Eclipse" ID="ID_1189190524" CREATED="1326809513122" MODIFIED="1326809537103"/>
+<node TEXT="Moi je vote pour BoUML (rien que pour te faire chier !) Sinon, si vraiment faut choisir autre chose, Ideas Modeler m&apos;avait tap&#xe9; dans l&apos;oeil avant m&#xea;me que je ne lise tes impressions. Il a l&apos;air beaucoup plus clair pour moi qui n&apos;y connait rien.." ID="ID_51274320" CREATED="1326875897260" MODIFIED="1326875955005">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="o&#xf9; seront &#xe9;crits les d&#xe9;bats correspondants au code ? Dans la section code. Mais elle risque de devenir trop grosse" ID="ID_1354233183" CREATED="1326665240473" MODIFIED="1326665282919"/>
 <node TEXT="Je pense que ce fichier (Idees.mm) pourrait rester comme &#xe7;a, ou devenir &quot;Specif.mm&quot;" ID="ID_1726475490" CREATED="1326665283353" MODIFIED="1326665309582"/>
@@ -644,6 +649,18 @@
 </node>
 <node TEXT="(sinon, faut des esp&#xe8;ces de fl&#xe8;ches traversantes : Zombcraft attribue une image &#xe0; un perso en fonction de son type)" ID="ID_1514273561" CREATED="1326666779641" MODIFIED="1326667345780">
 <icon BUILTIN="flag-green"/>
+<node TEXT="Pourquoi ne pas associer directement l&apos;image comme un attribut du type de personnage ?" ID="ID_972454970" CREATED="1326875603722" MODIFIED="1326875853783">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Zombcraft n&apos;aurait alors plus qu&apos;&#xe0; p&#xea;cher l&apos;info dans &quot;personnage&quot; et afficher." ID="ID_918264952" CREATED="1326875628635" MODIFIED="1326875859525">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Ca reviendrait &#xe0; faire une classe &quot;sprites&quot;, ou chaque &#xe9;l&#xe9;ment &quot;physique&quot; (NPC, d&#xe9;cors, objets..) pointe sur un de ces &#xe9;l&#xe9;ments, et Zombcraft choppe l&apos;info par l&apos;&#xe9;l&#xe9;ment physique. (en gros je fais deux fl&#xe8;ches plutot qu&apos;une traversante)" ID="ID_535375648" CREATED="1326875711540" MODIFIED="1326875863526">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Par contre &#xe7;a implique que quasi toutes les classes ont un attribut issu de &quot;sprites&quot;. Je sais pas si &#xe7;a se fait en UML..." ID="ID_1350024216" CREATED="1326875808760" MODIFIED="1326875867038">
+<icon BUILTIN="flag-pink"/>
+</node>
 </node>
 <node TEXT="On pourra ensuite descendre un peu dans le d&#xe9;tail, comme avec l&apos;inventaire par exemple..." ID="ID_1475510220" CREATED="1326666817089" MODIFIED="1326667345780">
 <icon BUILTIN="flag-green"/>
