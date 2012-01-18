@@ -627,6 +627,9 @@
 <node TEXT="Moi je vote pour BoUML (rien que pour te faire chier !) Sinon, si vraiment faut choisir autre chose, Ideas Modeler m&apos;avait tap&#xe9; dans l&apos;oeil avant m&#xea;me que je ne lise tes impressions. Il a l&apos;air beaucoup plus clair pour moi qui n&apos;y connait rien.." ID="ID_51274320" CREATED="1326875897260" MODIFIED="1326875955005">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Ahah, BoUML, c&apos;est celui de Jean-Marc Roussel !" ID="ID_886857955" CREATED="1326900235997" MODIFIED="1326900252984">
+<icon BUILTIN="flag-green"/>
+</node>
 </node>
 <node TEXT="o&#xf9; seront &#xe9;crits les d&#xe9;bats correspondants au code ? Dans la section code. Mais elle risque de devenir trop grosse" ID="ID_1354233183" CREATED="1326665240473" MODIFIED="1326665282919"/>
 <node TEXT="Je pense que ce fichier (Idees.mm) pourrait rester comme &#xe7;a, ou devenir &quot;Specif.mm&quot;" ID="ID_1726475490" CREATED="1326665283353" MODIFIED="1326665309582"/>
@@ -660,6 +663,27 @@
 </node>
 <node TEXT="Par contre &#xe7;a implique que quasi toutes les classes ont un attribut issu de &quot;sprites&quot;. Je sais pas si &#xe7;a se fait en UML..." ID="ID_1350024216" CREATED="1326875808760" MODIFIED="1326875867038">
 <icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="C&apos;est in&#xe9;ressant, c&apos;est une question qu&apos;il faudra illustrer (je suis pas s&#xfb;r d&apos;avoir r&#xe9;ellement saisi)" ID="ID_1399071748" CREATED="1326900302901" MODIFIED="1326900350567">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="J&apos;avais pens&#xe9; &#xe0; un truc dans ce genre en 2&#xb0; lieu, mais incapable de mettre au clair." ID="ID_1236242091" CREATED="1326900403596" MODIFIED="1326900657109">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Ce serait int&#xe9;ressant d&apos;&#xe9;viter d&apos;associer une image compl&#xe8;te, mais plut&#xf4;t un &quot;pointeur&quot; (pour &#xe9;viter de charger plusieurs fois la m&#xea;me image (je pense au d&#xe9;cor en particulier))." ID="ID_1427300744" CREATED="1326900467157" MODIFIED="1326900657107">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="et le passage par ZombCraft me para&#xee;t judicieux." ID="ID_1586777757" CREATED="1326900522789" MODIFIED="1326900657107">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Voire m&#xea;me ZombCraft renseigne la sprite au moteur graphique, et lui il l&apos;affiche" ID="ID_1462909494" CREATED="1326900536813" MODIFIED="1326900657107">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="je referai un UML" ID="ID_1897670197" CREATED="1326900583892" MODIFIED="1326900657106">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Je pense qu&apos;il est important que seul Graphics Engine ait le pouvoir d&apos;afficher des images, pour pouvoir s&#xe9;parer les modules. Car si ZombCraft est responsable de tout l&apos;afichage, ce sera pareil avec les sons, etc et ce sera le gros bordel" ID="ID_616370283" CREATED="1326900666580" MODIFIED="1326900722050">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
 <node TEXT="On pourra ensuite descendre un peu dans le d&#xe9;tail, comme avec l&apos;inventaire par exemple..." ID="ID_1475510220" CREATED="1326666817089" MODIFIED="1326667345780">
