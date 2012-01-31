@@ -288,9 +288,94 @@
       <owned-items />
       <style class="default" />
     </item>
+    <item id="di364665514319698644" cid="AC001" type="actor" name="Player" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di718082804558002771" cid="LL001" type="lifeline" name="ZombCraft" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <lifeline classifier-name="" is-active="false" is-multi-object="false" />
+    </item>
+    <item id="di288597087233380296" cid="AB001" type="activation-bar" name="ActivationBar1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di310174526422299787" cid="AB002" type="activation-bar" name="ActivationBar2" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di201748066658708219" cid="AB003" type="activation-bar" name="ActivationBar3" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di475258912990904235" cid="AN003" type="sequence-action" name="Action3" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="call" message="" is-asynchronous="false" />
+    </item>
+    <item id="di680199426936552016" cid="AB004" type="activation-bar" name="ActivationBar4" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di440683336907363728" cid="AN001" type="sequence-action" name="Action1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="create" message="" is-asynchronous="false" />
+    </item>
+    <item id="di825791132481782239" cid="AN003" type="sequence-action" name="Action4" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="create" message="" is-asynchronous="false" />
+    </item>
+    <item id="di520473245784961852" cid="AN005" type="sequence-action" name="Action6" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="create" message="" is-asynchronous="false" />
+    </item>
   </items>
   <models>
-    <model id="p536035330382412026" name="Model 1" type="" namespace="">
+    <model id="p536035330382412026" name="Model 1" type="model" namespace="">
       <documentation />
       <sub-models />
       <diagram type="uml-class" id="p934205858819596599" name="ClassDiagram1">
@@ -324,7 +409,7 @@
               </points>
             </layout>
             <relation from="di140427835332287293" to="di269523939811522102" />
-            <role-positions start-role="24.99999,15" end-role="25,15" start-multiplicity="24.9999,-15" end-multiplicity="25.00002,-15" />
+            <role-positions start-role="22.08928,17.89033" end-role="25,15" start-multiplicity="21.94002,-12.10931" end-multiplicity="28.91506,-17.14407" />
           </item>
           <item id="di997988309151234677" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
             <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="904" y1="420" x2="464" y2="159">
@@ -437,6 +522,25 @@
               </points>
             </layout>
             <relation from="di227774464177929222" to="di122180722687578948" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-sequence" id="p979583776488269583" name="SequenceDiagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>01/31/2012 23:52:20</creation-date>
+          <change-date>02/01/2012 00:04:12</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <documentation />
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di364665514319698644" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="lifeline">
+            <layout ax="120" ay="50" awidth="50" aheight="498" x="120" y="50" width="50" height="498" />
+          </item>
+          <item id="di201748066658708219" container="di364665514319698644" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="135" ay="180" awidth="20" aheight="160" x="135" y="180" width="160" height="160" />
           </item>
         </layer>
       </diagram>
