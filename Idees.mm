@@ -630,7 +630,9 @@
 <node TEXT="Ahah, BoUML, c&apos;est celui de Jean-Marc Roussel !" ID="ID_886857955" CREATED="1326900235997" MODIFIED="1326900252984">
 <icon BUILTIN="flag-green"/>
 </node>
-<node TEXT="Je vote Aussi pour Soft Ideas Modeler. Principalement car BoUML plus maintenu, et les logiciels non maintenu, c&apos;est la plaie !" ID="ID_296514332" CREATED="1328028653003" MODIFIED="1328028688055"/>
+<node TEXT="Je vote Aussi pour Soft Ideas Modeler. Principalement car BoUML plus maintenu, et les logiciels non maintenu, c&apos;est la plaie !" ID="ID_296514332" CREATED="1328028653003" MODIFIED="1328030008357">
+<icon BUILTIN="flag-blue"/>
+</node>
 </node>
 <node TEXT="o&#xf9; seront &#xe9;crits les d&#xe9;bats correspondants au code ? Dans la section code. Mais elle risque de devenir trop grosse" ID="ID_1354233183" CREATED="1326665240473" MODIFIED="1326665282919"/>
 <node TEXT="Je pense que ce fichier (Idees.mm) pourrait rester comme &#xe7;a, ou devenir &quot;Specif.mm&quot;" ID="ID_1726475490" CREATED="1326665283353" MODIFIED="1326665309582"/>
