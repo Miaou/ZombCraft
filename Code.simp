@@ -373,12 +373,289 @@
       <style class="default" />
       <sequence-action type="create" message="" is-asynchronous="false" />
     </item>
+    <item id="di858628064433598203" cid="LL002" type="lifeline" name=":ZombCraft" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <lifeline classifier-name="" is-active="false" is-multi-object="false" />
+    </item>
+    <item id="di986302410569889285" cid="AN002" type="sequence-action" name="Action5" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="create" message="new()" is-asynchronous="false" />
+    </item>
+    <item id="di475467715865445637" cid="AB001" type="activation-bar" name="ActivationBar5" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di429448545670949864" cid="AN003" type="sequence-action" name="Action7" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="call" message="main()" is-asynchronous="false" />
+    </item>
+    <item id="di689431039826645350" cid="AN004" type="sequence-action" name="Action8" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="send" message="" is-asynchronous="false" />
+    </item>
+    <item id="di328739672608476489" cid="AN005" type="sequence-action" name="Action9" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="call" message="" is-asynchronous="false" />
+    </item>
+    <item id="di842520840971645685" cid="DES001" type="destroy" name="Destroy1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di280635743348435452" cid="AN006" type="sequence-action" name="Action10" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="send" message="" is-asynchronous="false" />
+    </item>
+    <item id="di230115557611548379" cid="AN007" type="sequence-action" name="Action11" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="return" message="" is-asynchronous="false" />
+    </item>
+    <item id="di753255561120127576" cid="AN008" type="sequence-action" name="Action12" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="call" message="Appel()" is-asynchronous="false" />
+    </item>
+    <item id="di799473446285202094" cid="AN009" type="sequence-action" name="Action13" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="send" message="Envoie() (on devrait voir la différence)" is-asynchronous="false" />
+    </item>
+    <item id="di992634339990036542" cid="AN011" type="sequence-action" name="Action15" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <sequence-action type="send" message="quit()" is-asynchronous="false" />
+    </item>
+    <item id="di470799559895891087" cid="IN001" type="initial-node" name="InitialNode1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di542010167479190735" cid="A001" type="activity" name="Init" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di188480869830933919" cid="ACT001" type="action" name="Action2" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di983581701606600679" cid="ELEM001" type="activity-parameter-node" name="Element1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di313153611191288891" cid="AFN001" type="activity-final-node" name="ActivityFinalNode1" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di710260518807868813" cid="A002" type="activity" name="Zombcraft.main" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di547898588278084535" cid="ACT002" type="action" name="Parse Input" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di380811623486003580" cid="ACT003" type="action" name="Update elements, engine lives" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17 Premi\'e8re doc !\par
+\par
+Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \'e0 jour des actions, d\'e9cisions, moteur du jeu\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di279190430331696657" cid="ACT004" type="action" name="Play sounds" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di437801050702317230" cid="ACT005" type="action" name="Updates graphics" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di718784689984956726" cid="TR001" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di626216134314085667" cid="TR002" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di187815090565306649" cid="TR003" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di509429865257543704" cid="TR004" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di122655516589506754" cid="DC001" type="decision" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di458685661800751254" cid="TR005" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
+    <item id="di784138452312778071" cid="TR006" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="else" post-condition="" operation="" />
+    </item>
+    <item id="di635881167921469803" cid="TR007" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="Quit-message" post-condition="" operation="" />
+    </item>
+    <item id="di175230633924055161" cid="TR008" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
   </items>
   <models>
-    <model id="p536035330382412026" name="Model 1" type="model" namespace="">
+    <model id="p536035330382412026" name="Première suggestion, vue d'ensemble" type="model" namespace="">
       <documentation />
       <sub-models />
-      <diagram type="uml-class" id="p934205858819596599" name="ClassDiagram1">
+      <diagram type="uml-class" id="p934205858819596599" name="Organisation générale">
         <meta>
           <authors />
           <description />
@@ -525,22 +802,108 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-sequence" id="p979583776488269583" name="SequenceDiagram1">
+      <diagram type="uml-activity" id="p874046986423622551" name="ZombCraft instance">
         <meta>
           <authors />
           <description />
-          <creation-date>01/31/2012 23:52:20</creation-date>
-          <change-date>02/01/2012 00:04:12</change-date>
+          <creation-date>02/01/2012 23:28:38</creation-date>
+          <change-date>02/01/2012 23:43:38</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <documentation />
         <layer name="Default" visible="true" enabled="true" locked="false">
-          <item id="di364665514319698644" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="lifeline">
-            <layout ax="120" ay="50" awidth="50" aheight="498" x="120" y="50" width="50" height="498" />
+          <item id="di470799559895891087" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="350" ay="20" awidth="30" aheight="30" x="330" y="20" width="0" height="0" />
           </item>
-          <item id="di201748066658708219" container="di364665514319698644" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
-            <layout ax="135" ay="180" awidth="20" aheight="160" x="135" y="180" width="160" height="160" />
+          <item id="di542010167479190735" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="260" ay="80" awidth="200" aheight="130" x="260" y="80" width="200" height="130" />
+          </item>
+          <item id="di313153611191288891" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="650" ay="390" awidth="30" aheight="30" x="650" y="390" width="0" height="0" />
+          </item>
+          <item id="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="210" ay="240" awidth="390" aheight="500" x="210" y="240" width="390" height="500" />
+          </item>
+          <item id="di547898588278084535" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="320" ay="300" awidth="90" aheight="30" x="340" y="300" width="90" height="30" />
+          </item>
+          <item id="di380811623486003580" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="300" ay="480" awidth="130" aheight="50" x="350" y="480" width="130" height="50" />
+          </item>
+          <item id="di279190430331696657" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="315" ay="570" awidth="100" aheight="50" x="340" y="570" width="0" height="0" />
+          </item>
+          <item id="di437801050702317230" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="300" ay="660" awidth="130" aheight="50" x="340" y="660" width="130" height="0" />
+          </item>
+          <item id="di718784689984956726" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="50" x2="365" y2="300">
+              <points>
+                <point x="365" y="50" />
+                <point x="365" y="300" />
+              </points>
+            </layout>
+            <relation from="di470799559895891087" to="di547898588278084535" />
+          </item>
+          <item id="di187815090565306649" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="530" x2="365" y2="570">
+              <points>
+                <point x="365" y="530" />
+                <point x="365" y="570" />
+              </points>
+            </layout>
+            <relation from="di380811623486003580" to="di279190430331696657" />
+          </item>
+          <item id="di509429865257543704" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="620" x2="365" y2="660">
+              <points>
+                <point x="365" y="620" />
+                <point x="365" y="660" />
+              </points>
+            </layout>
+            <relation from="di279190430331696657" to="di437801050702317230" />
+          </item>
+          <item id="di122655516589506754" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="350" ay="380" awidth="30" aheight="50" x="400" y="380" width="0" height="50" />
+          </item>
+          <item id="di458685661800751254" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="330" x2="365" y2="380">
+              <points>
+                <point x="365" y="330" />
+                <point x="365" y="380" />
+              </points>
+            </layout>
+            <relation from="di547898588278084535" to="di122655516589506754" />
+          </item>
+          <item id="di784138452312778071" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="430" x2="365" y2="480">
+              <points>
+                <point x="365" y="430" />
+                <point x="365" y="480" />
+              </points>
+            </layout>
+            <relation from="di122655516589506754" to="di380811623486003580" />
+          </item>
+          <item id="di635881167921469803" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="-50,-10" x1="380" y1="405" x2="650" y2="405">
+              <points>
+                <point x="380" y="405" />
+                <point x="650" y="405" />
+              </points>
+            </layout>
+            <relation from="di122655516589506754" to="di313153611191288891" />
+          </item>
+          <item id="di175230633924055161" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="300" y1="688" x2="320" y2="313">
+              <points>
+                <point x="300" y="688" />
+                <point x="250" y="690" />
+                <point x="250" y="310" />
+                <point x="320" y="313" />
+              </points>
+            </layout>
+            <relation from="di437801050702317230" to="di547898588278084535" />
           </item>
         </layer>
       </diagram>
