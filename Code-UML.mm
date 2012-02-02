@@ -71,6 +71,25 @@
 <node TEXT="On pourra ensuite descendre un peu dans le d&#xe9;tail, comme avec l&apos;inventaire par exemple..." ID="ID_1475510220" CREATED="1326666817089" MODIFIED="1326667345780">
 <icon BUILTIN="flag-green"/>
 </node>
+<node TEXT="Partitionne bon sang ! ste manie que tu as de faire des tas de fl&#xe8;ches descendantes.. Comment on va faire si tout le monde met 10 points ?" ID="ID_1249054479" CREATED="1328182681366" MODIFIED="1328182756653">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Zombcraft" ID="ID_1409929526" CREATED="1328183339691" MODIFIED="1328183343613">
+<node TEXT="Cette aurait donc comme office de lire les ordres (donn&#xe9;es) et transmettre vers les classes ex&#xe9;cutantes ? Ca me parait correct." ID="ID_1661992922" CREATED="1328183345518" MODIFIED="1328183629628">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
+<node TEXT="Map" ID="ID_496204715" CREATED="1328183401336" MODIFIED="1328183403099">
+<node TEXT="Je suis moins convaincue par cette classe. Si on consid&#xe8;re que la map peut &#xea;tre construite / d&#xe9;construite par bloc, elle revient &#xe0; un affichage de tas de blocs de construction.. Ce ne serait pas une map fixe en tant que tel non?" ID="ID_1288358229" CREATED="1328183404484" MODIFIED="1328183641627">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="Je mettrais plut&#xf4;t une classe &quot;objets&quot; avec une sous-classe &quot;construction&quot; qui s&apos;affiche et qui a un mod&#xe8;le physique." ID="ID_1926527536" CREATED="1328183478920" MODIFIED="1328183648548">
+<icon BUILTIN="flag-pink"/>
+</node>
+<node TEXT="A moins que pour &#xe9;viter de g&#xe9;rer la totalit&#xe9; des blocs contenus dans la zone, to consid&#xe8;re comme &quot;map&quot; la couche sup&#xe9;rieure ? A ce moment-l&#xe0; c&apos;est coh&#xe9;rent mais ce sera alors une map dynamique." ID="ID_242013716" CREATED="1328183729248" MODIFIED="1328183790547">
+<icon BUILTIN="flag-pink"/>
+</node>
+</node>
 </node>
 </node>
 </map>
