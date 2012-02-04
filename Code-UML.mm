@@ -74,6 +74,12 @@
 <node TEXT="Partitionne bon sang ! ste manie que tu as de faire des tas de fl&#xe8;ches descendantes.. Comment on va faire si tout le monde met 10 points ?" ID="ID_1249054479" CREATED="1328182681366" MODIFIED="1328182756653">
 <icon BUILTIN="flag-pink"/>
 </node>
+<node TEXT="Mais crotte ! T&apos;as qu&apos;&#xe0; partitionner toi !&#xa;J&apos;ai pas partitionn&#xe9; parce que c&apos;est le d&#xe9;but, et que je pense que ces id&#xe9;es sont g&#xe9;n&#xe9;rales." ID="ID_1764742031" CREATED="1328349478766" MODIFIED="1328349698399">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="En plus, je suis pas s&#xfb;r qu&apos;on soit dans la bonne direction. J&apos;aimerais proposer 2 ou 3 directions diff&#xe9;rentes pour l&apos;UML de base, mais l&#xe0; j&apos;ai &#xe9;t&#xe9; assez occup&#xe9;..." ID="ID_276907469" CREATED="1328349656126" MODIFIED="1328349698401">
+<icon BUILTIN="flag-green"/>
+</node>
 <node TEXT="Zombcraft" ID="ID_1409929526" CREATED="1328183339691" MODIFIED="1328183343613">
 <node TEXT="Cette aurait donc comme office de lire les ordres (donn&#xe9;es) et transmettre vers les classes ex&#xe9;cutantes ? Ca me parait correct." ID="ID_1661992922" CREATED="1328183345518" MODIFIED="1328183629628">
 <icon BUILTIN="flag-pink"/>
