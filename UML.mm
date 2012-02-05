@@ -16,7 +16,23 @@
 <icon BUILTIN="flag-pink"/>
 </node>
 </node>
-<node TEXT="UML-1 :&#xa;Mod&#xe8;le tr&#xe8;s orient&#xe9; objets responsables" POSITION="right" ID="ID_1200740554" CREATED="1326666658345" MODIFIED="1328459555416">
+<node TEXT="Sur la mani&#xe8;re de mod&#xe9;liser" POSITION="right" ID="ID_1122320102" CREATED="1328459959899" MODIFIED="1328460212919">
+<node TEXT="Miaou" ID="ID_791127027" CREATED="1328460214251" MODIFIED="1328460216631">
+<node TEXT="Nous utilisons un langage objet. Profitons-en" ID="ID_1983870413" CREATED="1328460217850" MODIFIED="1328460226704"/>
+<node TEXT="Cependant, une difficult&#xe9; est de trouver l&apos;&#xe9;quilibre entre :&#xa;- tout faire dans la fonction principale&#xa;- tout d&#xe9;porter jusqu&apos;&#xe0; l&apos;extr&#xe8;me dans les sous-sous-classes" ID="ID_1157267523" CREATED="1328460227003" MODIFIED="1328460964065"/>
+<node TEXT="Une autre difficult&#xe9; est de trouver un &#xe9;quilibre dans la quantit&#xe9; d&apos;&#xe9;changes entre classes" ID="ID_459320307" CREATED="1328460964611" MODIFIED="1328461052088">
+<node TEXT="J&apos;ai du mal &#xe0; poser cette id&#xe9;e clairement" ID="ID_894748075" CREATED="1328461052419" MODIFIED="1328461061616"/>
+<node TEXT="Explications par l&apos;exemple" ID="ID_994154796" CREATED="1328461061907" MODIFIED="1328461070519"/>
+<node TEXT="Cas de l&apos;affichage d&apos;un personnage" ID="ID_883501461" CREATED="1328461071035" MODIFIED="1328461099824">
+<node TEXT="cas 1 : le personnage appelle directement la librairie graphique, et blit la tile &#xe0; la bonne position" ID="ID_1339499664" CREATED="1328461100139" MODIFIED="1328461132040"/>
+<node TEXT="cas 2 : le personnage appelle le moteur graphique, lui dit d&apos;afficher sa tile &#xe0; la position (x,y), le moteur graphique se charge de trouver la bonne tile (de la charger &#xe0; d&#xe9;faut) et de l&apos;afficher si c&apos;est coh&#xe9;rent." ID="ID_1272802035" CREATED="1328461132355" MODIFIED="1328461191575"/>
+<node TEXT="cas 3 : ZombCraft trouve la position du perso, calcul si c&apos;est utile de l&apos;afficher, blit la tile &#xe0; la bonne position" ID="ID_1272729804" CREATED="1328461466867" MODIFIED="1328461541984"/>
+</node>
+<node TEXT="Sur cet exemple, le plus &quot;propre&quot; est le cas 2, m&#xea;me si cela impose probablement trop de fioritures..." ID="ID_1113852362" CREATED="1328463435778" MODIFIED="1328465188182"/>
+</node>
+</node>
+</node>
+<node TEXT="UML-1 :&#xa;Premier mod&#xe8;le, recensement des pb" POSITION="right" ID="ID_1200740554" CREATED="1326666658345" MODIFIED="1328464302305">
 <node TEXT="Les int&#xe9;ractions entre les classes semblent compliqu&#xe9;es, c&apos;est un mod&#xe8;le utopique" ID="ID_1189780837" CREATED="1326666687816" MODIFIED="1328459585479">
 <icon BUILTIN="flag-green"/>
 </node>
