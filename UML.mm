@@ -30,6 +30,12 @@
 </node>
 <node TEXT="Sur cet exemple, le plus &quot;propre&quot; est le cas 2, m&#xea;me si cela impose probablement trop de fioritures..." ID="ID_1113852362" CREATED="1328463435778" MODIFIED="1328465188182"/>
 </node>
+<node TEXT="Une autre difficult&#xe9; de la mod&#xe9;lisation UML : on tourne autour du pot" ID="ID_1453551778" CREATED="1328468444260" MODIFIED="1328468459090">
+<node TEXT="en faisant UML-2, je m&apos;aper&#xe7;ois que je voudrais lier proprement toutes les classes entre elles de mani&#xe8;re claire" ID="ID_1000656483" CREATED="1328468460332" MODIFIED="1328468515457"/>
+<node TEXT="mais d&apos;une, je n&apos;y arrive pas vraiment" ID="ID_553892317" CREATED="1328468494268" MODIFIED="1328468525953"/>
+<node TEXT="de deux, &#xe0; force de vouloir subordonner les t&#xe2;ches, rien ne progresse, rien ne se fait nul part..." ID="ID_497869785" CREATED="1328468518276" MODIFIED="1328468597665"/>
+<node TEXT="bienvenue dans les objets..." ID="ID_1239900613" CREATED="1328468597949" MODIFIED="1328468605377"/>
+</node>
 </node>
 </node>
 <node TEXT="UML-1 :&#xa;Premier mod&#xe8;le, recensement des pb" POSITION="right" ID="ID_1200740554" CREATED="1326666658345" MODIFIED="1328464302305">
@@ -60,6 +66,17 @@
 <node TEXT="Je note, je note, je r&#xe9;fl&#xe9;chis." ID="ID_1294711940" CREATED="1328459692954" MODIFIED="1328459706651">
 <icon BUILTIN="flag-green"/>
 </node>
+</node>
+</node>
+<node TEXT="UML-2 :&#xa;Vers un mod&#xe8;le &quot;propre&quot;" POSITION="right" ID="ID_1389331730" CREATED="1328464977344" MODIFIED="1328465159677">
+<node TEXT="J&apos;essaie d&apos;orienter ce mod&#xe8;le sur les int&#xe9;ractions propres entre objets" ID="ID_1726116018" CREATED="1328465283280" MODIFIED="1328465298224">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Le probl&#xe8;me de tourner autour du pot se fait sentir : ZombCraft.UpdateWorld() va contenir le moteur du jeu. C&apos;est mal ? C&apos;est pas objet. Comment le rendre objet" ID="ID_1168647516" CREATED="1328469236484" MODIFIED="1328469308147">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Peut-&#xea;tre essayer d&apos;impl&#xe9;menter quelque chose dans la branche PAB, pour voir si tout &#xe7;a ne sont pas des faux probl&#xe8;mes." ID="ID_557609069" CREATED="1328469482268" MODIFIED="1328469505133">
+<icon BUILTIN="flag-green"/>
 </node>
 </node>
 </node>
