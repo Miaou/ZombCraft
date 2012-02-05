@@ -650,6 +650,50 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
       <style class="default" />
       <transition pre-condition="" post-condition="" operation="" />
     </item>
+    <item id="di664377900170268402" cid="C001" type="class" name="Internet ?" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters />
+    </item>
+    <item id="di255159872901574378" cid="A001" type="activity" name="Parse Internet messages" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di428165085860433063" cid="A002" type="activity" name="Activity2" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di957248641285116621" cid="ACT001" type="action" name="Parse Internet Messages" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di112489337465743073" cid="TR001" type="transition" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <transition pre-condition="" post-condition="" operation="" />
+    </item>
   </items>
   <models>
     <model id="p536035330382412026" name="Première suggestion, vue d'ensemble" type="model" namespace="">
@@ -800,6 +844,10 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
             </layout>
             <relation from="di227774464177929222" to="di122180722687578948" />
           </item>
+          <item id="di664377900170268402" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="1010" ay="70" awidth="150" aheight="170" x="1010" y="70" width="0" height="0" />
+            <class />
+          </item>
         </layer>
       </diagram>
       <diagram type="uml-activity" id="p874046986423622551" name="ZombCraft instance">
@@ -807,7 +855,7 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
           <authors />
           <description />
           <creation-date>02/01/2012 23:28:38</creation-date>
-          <change-date>02/01/2012 23:43:38</change-date>
+          <change-date>02/05/2012 17:30:06</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -823,19 +871,19 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
             <layout ax="650" ay="390" awidth="30" aheight="30" x="650" y="390" width="0" height="0" />
           </item>
           <item id="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
-            <layout ax="210" ay="240" awidth="390" aheight="500" x="210" y="240" width="390" height="500" />
+            <layout ax="210" ay="240" awidth="420" aheight="570" x="210" y="240" width="390" height="570" />
           </item>
           <item id="di547898588278084535" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
             <layout ax="320" ay="300" awidth="90" aheight="30" x="340" y="300" width="90" height="30" />
           </item>
           <item id="di380811623486003580" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
-            <layout ax="300" ay="480" awidth="130" aheight="50" x="350" y="480" width="130" height="50" />
+            <layout ax="300" ay="560" awidth="130" aheight="50" x="350" y="560" width="130" height="50" />
           </item>
           <item id="di279190430331696657" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
-            <layout ax="315" ay="570" awidth="100" aheight="50" x="340" y="570" width="0" height="0" />
+            <layout ax="315" ay="650" awidth="100" aheight="50" x="340" y="650" width="0" height="0" />
           </item>
           <item id="di437801050702317230" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
-            <layout ax="300" ay="660" awidth="130" aheight="50" x="340" y="660" width="130" height="0" />
+            <layout ax="300" ay="740" awidth="130" aheight="50" x="340" y="740" width="130" height="0" />
           </item>
           <item id="di718784689984956726" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
             <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="50" x2="365" y2="300">
@@ -847,19 +895,19 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
             <relation from="di470799559895891087" to="di547898588278084535" />
           </item>
           <item id="di187815090565306649" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="530" x2="365" y2="570">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="610" x2="365" y2="650">
               <points>
-                <point x="365" y="530" />
-                <point x="365" y="570" />
+                <point x="365" y="610" />
+                <point x="365" y="650" />
               </points>
             </layout>
             <relation from="di380811623486003580" to="di279190430331696657" />
           </item>
           <item id="di509429865257543704" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="620" x2="365" y2="660">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="700" x2="365" y2="740">
               <points>
-                <point x="365" y="620" />
-                <point x="365" y="660" />
+                <point x="365" y="700" />
+                <point x="365" y="740" />
               </points>
             </layout>
             <relation from="di279190430331696657" to="di437801050702317230" />
@@ -883,7 +931,7 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
                 <point x="365" y="480" />
               </points>
             </layout>
-            <relation from="di122655516589506754" to="di380811623486003580" />
+            <relation from="di122655516589506754" to="di957248641285116621" />
           </item>
           <item id="di635881167921469803" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
             <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="-50,-10" x1="380" y1="405" x2="650" y2="405">
@@ -895,15 +943,27 @@ Ici, c'est tout ce qui concerne la vie des \'e9l\'e9ments en m\'e9moire : mise \
             <relation from="di122655516589506754" to="di313153611191288891" />
           </item>
           <item id="di175230633924055161" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
-            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="300" y1="688" x2="320" y2="313">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="300" y1="762" x2="320" y2="317">
               <points>
-                <point x="300" y="688" />
-                <point x="250" y="690" />
-                <point x="250" y="310" />
-                <point x="320" y="313" />
+                <point x="300" y="762" />
+                <point x="250" y="760" />
+                <point x="250" y="320" />
+                <point x="320" y="317" />
               </points>
             </layout>
             <relation from="di437801050702317230" to="di547898588278084535" />
+          </item>
+          <item id="di957248641285116621" container="di710260518807868813" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="entity">
+            <layout ax="300" ay="480" awidth="130" aheight="50" x="300" y="480" width="130" height="0" />
+          </item>
+          <item id="di112489337465743073" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="365" y1="530" x2="365" y2="560">
+              <points>
+                <point x="365" y="530" />
+                <point x="365" y="560" />
+              </points>
+            </layout>
+            <relation from="di957248641285116621" to="di380811623486003580" />
           </item>
         </layer>
       </diagram>
