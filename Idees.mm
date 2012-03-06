@@ -492,6 +492,7 @@
 <node TEXT="suggestions : pygame (interface (fen&#xea;tre Windows, clavier souris), sons), cairo (graphismes vectoriels), pyode (si moteur physique)" ID="ID_1583264454" CREATED="1325770461975" MODIFIED="1325770514234"/>
 <node TEXT="python 2.7 pour faire tourner cairo" ID="ID_528279676" CREATED="1325770515413" MODIFIED="1325770522012"/>
 <node TEXT="python 3.2 parce que c&apos;est mieux" ID="ID_1083611028" CREATED="1325770524143" MODIFIED="1325770534259"/>
+<node TEXT="openal pour le son ? surveiller http://www.rhinocerus.net/forum/lang-python/700937-state-python-openal.html#post2917478" ID="ID_806210935" CREATED="1331073115923" MODIFIED="1331073444343"/>
 </node>
 <node TEXT="Poulpe" ID="ID_872726941" CREATED="1326102085513" MODIFIED="1326102087806">
 <node TEXT="Pourquoi pas en flash, pour le diffuser ?" ID="ID_994858196" CREATED="1326102088177" MODIFIED="1326102107382">
