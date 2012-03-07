@@ -71,12 +71,35 @@
 <node TEXT="UML-2 :&#xa;Vers un mod&#xe8;le &quot;propre&quot;" POSITION="right" ID="ID_1389331730" CREATED="1328464977344" MODIFIED="1328465159677">
 <node TEXT="J&apos;essaie d&apos;orienter ce mod&#xe8;le sur les int&#xe9;ractions propres entre objets" ID="ID_1726116018" CREATED="1328465283280" MODIFIED="1328465298224">
 <icon BUILTIN="flag-green"/>
-</node>
 <node TEXT="Le probl&#xe8;me de tourner autour du pot se fait sentir : ZombCraft.UpdateWorld() va contenir le moteur du jeu. C&apos;est mal ? C&apos;est pas objet. Comment le rendre objet" ID="ID_1168647516" CREATED="1328469236484" MODIFIED="1328469308147">
 <icon BUILTIN="flag-green"/>
 </node>
 <node TEXT="Peut-&#xea;tre essayer d&apos;impl&#xe9;menter quelque chose dans la branche PAB, pour voir si tout &#xe7;a ne sont pas des faux probl&#xe8;mes." ID="ID_557609069" CREATED="1328469482268" MODIFIED="1328469505133">
 <icon BUILTIN="flag-green"/>
+</node>
+</node>
+<node TEXT="Apr&#xe8;s un temps de pause, id&#xe9;es plus nettes" ID="ID_1760268109" CREATED="1331160997868" MODIFIED="1331161623460">
+<icon BUILTIN="flag-green"/>
+<node TEXT="L&apos;id&#xe9;e est ici de dire que ZombCraft() g&#xe8;re une instance du jeu. Il y a un ZombCraft() par joueur" ID="ID_1990428410" CREATED="1331161127947" MODIFIED="1331161627050">
+<icon BUILTIN="flag-green"/>
+</node>
+<node TEXT="Ajout de la classe World" ID="ID_1514196958" CREATED="1331161193739" MODIFIED="1331161627051">
+<icon BUILTIN="flag-green"/>
+<node TEXT="World g&#xe8;re une instance du monde" ID="ID_628051484" CREATED="1331161207307" MODIFIED="1331161374615"/>
+<node TEXT="R&#xf4;le : Permet de g&#xe9;rer les infos et les m&#xe9;thodes de gestion de vie du monde" ID="ID_946742364" CREATED="1331161043426" MODIFIED="1331161457263"/>
+<node TEXT="ce qui fait vivre le tout !" ID="ID_1871004037" CREATED="1331161095554" MODIFIED="1331161101416"/>
+<node TEXT="c&apos;est le moteur du jeu finalement, ce qui est int&#xe9;ressant, pas de l&apos;interface" ID="ID_1691702748" CREATED="1331161066307" MODIFIED="1331161095247"/>
+<node TEXT="Il devrait y avoir une instance ma&#xee;tre (serveur)" ID="ID_1256443533" CREATED="1331161390794" MODIFIED="1331161392743"/>
+<node TEXT="et d&apos;autres instances r&#xe9;duites (clients) qui vivent, mais se synchronisent au serveur" ID="ID_1980700015" CREATED="1331161395139" MODIFIED="1331161436056"/>
+</node>
+<node TEXT="Ajout &#xe9;galement de la classe Guest, dont User interface est un h&#xe9;ritage" ID="ID_1406842306" CREATED="1331161106595" MODIFIED="1331161627050">
+<icon BUILTIN="flag-green"/>
+<node TEXT="Il y a un Guest() par joueur" ID="ID_1276358051" CREATED="1331161476019" MODIFIED="1331161483248"/>
+<node TEXT="une instance repr&#xe9;sente localement un joueur qui peut &#xea;tre distant" ID="ID_1837314227" CREATED="1331161483475" MODIFIED="1331161514374"/>
+<node TEXT="devrait y avoir des stats comme le ping, le texte &#xe9;crit, l&apos;inventaire peut-&#xea;tre" ID="ID_1596658463" CREATED="1331161517826" MODIFIED="1331161551158"/>
+<node TEXT="Permet de faire abstraction de la couche internet ! En effet, quand les messages internet seront pars&#xe9;s, l&apos;instance du guest sera inform&#xe9;e" ID="ID_1137075069" CREATED="1331161551465" MODIFIED="1331161597590"/>
+<node TEXT="je ne sais pas encore si elle sera vraiment utile." ID="ID_430866107" CREATED="1331161606154" MODIFIED="1331161615758"/>
+</node>
 </node>
 </node>
 </node>
